@@ -28,7 +28,7 @@ class controleurHomeAccueil extends controleur {
 		// titres de la page
 		// ===============================================================================================================
 		$this->titreHeader = "accueil du site";
-		$this->titreMain = "page d'accueil du site de notre association";
+		$this->titreMain = "page d'accueil du port folio";
 		
 		// ===============================================================================================================
 		// encarts
@@ -38,7 +38,7 @@ class controleurHomeAccueil extends controleur {
 		// ===============================================================================================================
 		// texte défilant
 		// ===============================================================================================================
-		$this->texteDefilant = parent::getTexteDefilant("derniereMinute.txt");
+		$this->texteDefilant = parent::getTexteDefilant("textAccueil.txt");
 		
 		// ===============================================================================================================
 		// liens à intéger dans l'entête de la page

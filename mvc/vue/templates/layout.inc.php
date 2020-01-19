@@ -13,7 +13,7 @@
 	<title>
 		<?php echo $titreSiteWeb . PHP_EOL; ?>
 	</title>
-	<link rel="icon" type="image/png" href="./image/divers/bobine.png">
+	<link rel="icon" type="image/png" href="./image/divers/favicon.png">
 
 	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
@@ -77,29 +77,17 @@
 	</div>
 	
 	<div id='lien'>
-		<a onclick='window.open(this.href); return false;' href='http://www.allocine.fr'>
-			<img alt='allocine' src='./image/partenaire/logoAllocineMini.png' />
+		<a>
+			<img alt='Nathan.THOMASSET' src='./image/partenaire/Sio-slam.ico' /> &nbsp; Nathan.THOMASSET
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='http://www.empirecinemas.co.uk'>
-			<img alt='empire' src='./image/partenaire/logoEmpireMini.png' />
+		<a onclick='window.open(this.href); return false;' href='http://www.SIO-SLAM.fr'>
+			<img alt='SIO-SLAM' src='./image/partenaire/logoSioSlam.png' />
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='http://www.sky.com/tv/channel/skycinema'>
-			<img alt='skymovies' src='./image/partenaire/logoSkyMoviesMini.png' />
-		</a>
 	</div>
 	
 	<div id='header'>
 		<img alt='' id='fondHeader' src='./image/divers/fondHeader.jpg' />
-		<img alt='' src='./image/divers/cinepassion38Logo.png' id='cinepassion38' />
-		<div id='authentification'>
-			<?php echo $authentification . PHP_EOL; ?>
-			<form action="./index.php?module=home&amp;page=inscription" method="post" id='signZone'> 
-				<input class="signElement" type="id" name="id" placeholder=" name" autocomplete="off" > 
-				<input class="signElement" type="password" name="passe" placeholder=" password" autocomplete="off" >
-				<input class="signElement" type="submit" value="Valider" > 
-				<input class="signElement" type="button" value="inscription" href="./index.php?module=home&amp;page=inscription" >
-			</form>
-		</div>
+		<img alt='' src='./image/divers/portFolioLogo.png' id='cinepassion38' />
 		<div id='titre'>
 			<?php echo $titreHeader . PHP_EOL; ?>
 		</div>
@@ -132,14 +120,14 @@
 	<div id='menu'>
 		<ul class='nv1'>
 			<li id='accueil'><a href='./index.php?module=home&amp;page=accueil'>&nbsp;</a></li>
-			<li class='plus'>cinepassion38
+			<li class='plus'>Fiche de competence
 				<ul class='nv2'>
 					<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
 					<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
 					<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
 				</ul>
 			</li>
-			<li class='plus'>Film
+			<li class='plus'>Projet
 				<ul class='nv2'>
 					<li><a href='./index.php?module=film&amp;page=accueil'>accueil</a></li>
 					<li><a href='./index.php?module=film&amp;page=liste'><img src="https://img.icons8.com/color/16/000000/maintenance.png"> Liste des films <img src="https://img.icons8.com/color/16/000000/maintenance.png"></a></li>
@@ -177,19 +165,10 @@
 	
 	<div id='planSite'>
 		<div class='blocGauche'>
-			l' association
-			<ul>
-				<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
-				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
-				<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
-			</ul>
+			<span class='centrer'>...</span>
 		</div>
 		<div class='blocGauche'>
-       			les films
-        		<ul>
-    				<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
-    				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>list des films</a></li>
-    			</ul>
+			<span class='centrer'>...</span>
 		</div>
 		<div class='blocDroite'>
 			<span class='centrer'>...</span>
@@ -205,7 +184,6 @@
 
 	<div id='footer'>
 		<img alt='' id='fondFooter' src='./image/divers/fondFooter.jpg' />
-		<img alt='' id='cinepassion38LogoMini' src='./image/divers/cinepassion38LogoMini.png'  />
 		<div id='w3c'>
 			<img alt='' src='./image/divers/w3cXhtml1.0.png' />&nbsp;&nbsp;&nbsp;&nbsp;
 			<img alt='' src='./image/divers/w3cCss.png' />
@@ -213,7 +191,7 @@
 	</div><!-- footer -->
 
 	<div id='copyright'>
-		cinepassion38 - l 'association grenobloise pour la promotion du cinéma <br/> @Copyright 2018 Genesys - Tous droits réservés
+		Port Folio - le porte feuille de competence web  <br/> @Copyright 2020 SIO-SLAM whith Genesys php-framwork - Tous droits réservés
 	</div>
 </body>
 </html>

@@ -9,10 +9,10 @@
 <div id='content1'>
 	<div id='blocDroite'>
 		<span class='titre'>
-			présentation de l'association cinepassion38
+			présentation du Port Folio
 		</span>
-		L' association cinepassion38 est une association loi 1901 créée à Grenoble en 2008 par monsieur Martin, un passionné de cinéma depuis de nombreuses années. Son objectif consiste à proposer à ses membres des films à la location selon le même principe qu' une médiathèque. Aujourd'hui, l'association possède plus d'une centaine de films à la location (au format DVD et Blu-ray) dans des genres très variés afin de répondre aux besoins du plus grand nombre (fantastique, horreur, comédie romantique, drame, animation, ...).
-		Forte de plus de 250 membres actifs, ce site web participe à la stratégie de valorisation de l'association auprès du grand public. Il est aussi un formidable vecteur de communication externe. N'hésitez pas à vous inscrire afin de profiter pleinement de l'ensemble des fonctionnalités offertes, notamment la possibilité d'évaluer et de commenter les différents films proposés à la location afin d'échanger vos expériences cinématographiques.
+		Ce port folio (porte-documents en francais) a ete tous specialement concus pour les besoin du BTS.
+		Il contient toutes les fiche de competence detailler realiser 
 	</div>
 
 	<script type='text/javascript'>
@@ -89,5 +89,4 @@
 	</div>
 </div><!-- content1 -->
 <div id="content2">
-	Placer ici la description du bloc content2...
 </div><!-- content2 -->
