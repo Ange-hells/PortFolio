@@ -122,16 +122,16 @@
 			<li id='accueil'><a href='./index.php?module=home&amp;page=accueil'>&nbsp;</a></li>
 			<li class='plus'>Fiche de competence
 				<ul class='nv2'>
-					<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
+					<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>Liste des fiches</a></li>
 					<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
 					<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
 				</ul>
 			</li>
 			<li class='plus'>Projet
 				<ul class='nv2'>
-					<li><a href='./index.php?module=film&amp;page=accueil'>accueil</a></li>
-					<li><a href='./index.php?module=film&amp;page=liste'><img src="https://img.icons8.com/color/16/000000/maintenance.png"> Liste des films <img src="https://img.icons8.com/color/16/000000/maintenance.png"></a></li>
-					<li><a href='./index.php?module=film&amp;page=fiche'>fiche</a></li>
+					<li><a href='./index.php?module=film&amp;page=accueil'><img src='https://img.icons8.com/ios/16/000000/movie.png'> CinePassion38  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
+					<li><a href='./index.php?module=film&amp;page=liste'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
+					<li><a href='./index.php?module=film&amp;page=fiche'><img src="https://img.icons8.com/small/16/000000/address-book.png"> Agenda <img src="https://img.icons8.com/small/16/000000/address-book.png"></a></li>
 				</ul>
 			</li>
 		</ul>
@@ -165,7 +165,13 @@
 	
 	<div id='planSite'>
 		<div class='blocGauche'>
-			<span class='centrer'>...</span>
+			Fiche de competence
+			<ul>
+				<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
+				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
+				<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
+			</ul>
+
 		</div>
 		<div class='blocGauche'>
 			<span class='centrer'>...</span>
