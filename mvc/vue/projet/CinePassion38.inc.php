@@ -13,6 +13,11 @@
             echo "&nbsp<a href='$git'  >gitHub</a>";
         ?>
     </nav>
+    <div id='logo'>
+        <?php
+            echo "<img src='$logo' alt=''/>"
+        ?>
+    </div>
     <span>
 
 
