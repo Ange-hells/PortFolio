@@ -14,6 +14,7 @@
 	</title>
 	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
+	<link rel="icon" type="image/png" href="./image/divers/favicon.png">
 </head>
 <body>
 	<div id='llm'>
@@ -23,23 +24,17 @@
 	</div>
 	
 	<div id='lien'>
-		<a onclick='window.open(this.href); return false;' href='http://www.allocine.fr'>
-			<img alt='allocine' src='./image/partenaire/logoAllocineMini.png' />
+		<a>
+			<img alt='Nathan.THOMASSET' src='./image/partenaire/Sio-slam.ico' /> &nbsp; Nathan.THOMASSET
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='http://www.empirecinemas.co.uk'>
-			<img alt='empire' src='./image/partenaire/logoEmpireMini.png' />
+		<a onclick='window.open(this.href); return false;' href='http://www.SIO-SLAM.fr'>
+			<img alt='SIO-SLAM' src='./image/partenaire/logoSioSlam.png' />
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='http://www.sky.com/tv/channel/skycinema'>
-			<img alt='skymovies' src='./image/partenaire/logoSkyMoviesMini.png' />
-		</a>
 	</div>
 	
 	<div id='header'>
 		<img alt='' id='fondHeader' src='./image/divers/fondHeader.jpg' />
-		<img alt='' src='./image/divers/cinepassion38Logo.png' id='cinepassion38' />
-		<div id='authentification'>
-			Authentification
-		</div>
+		<img alt='' src='./image/divers/portFolioLogo.png' id='cinepassion38' />
 		<div id='titre'>
 			Erreur
 		</div>
@@ -54,21 +49,31 @@
 	<div id='menu'>
 		<ul class='nv1'>
 			<li id='accueil'><a href='./index.php?module=home&amp;page=accueil'>&nbsp;</a></li>
-			<li class='plus'>cinepassion38</a>
+			<li class='plus'>Fiche de competence
 				<ul class='nv2'>
-					<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
-					<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
-					<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
+					<li><a href='./index.php?module=fiche&amp;page=accueil'><img src="https://img.icons8.com/metro/16/000000/purchase-order.png"> Liste des fiches <img src="https://img.icons8.com/metro/16/000000/purchase-order.png"></a></li>
+					<li><a href='./index.php?module=fiche&amp;page=partenaire'>nos partenaires</a></li>
+					<li><a href='./index.php?module=fiche&amp;page=plan'>plan</a></li>
 				</ul>
 			</li>
-			<li class='plus'>Film
+			<li class='plus'>Projet
 				<ul class='nv2'>
-					<li><a href='./index.php?module=film&amp;page=accueil'>accueil</a></li>
-					<li><a href='./index.php?module=film&amp;page=liste'><img src="https://img.icons8.com/color/16/000000/maintenance.png"> Liste des films <img src="https://img.icons8.com/color/16/000000/maintenance.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=cinepassion38'><img src='https://img.icons8.com/ios/16/000000/movie.png'> CinePassion38  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
+					<li><a href='./index.php?module=projet&amp;page=keller2020'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=agenda'><img src="https://img.icons8.com/small/16/000000/address-book.png"> Agenda <img src="https://img.icons8.com/small/16/000000/address-book.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='https://img.icons8.com/ios/16/000000/movie.png'> MDI  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
+					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="https://img.icons8.com/small/16/000000/php.png"> Genesys <img src="https://img.icons8.com/small/16/000000/php.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="https://img.icons8.com/android/16/000000/globe.png"> Evasion <img src="https://img.icons8.com/android/16/000000/globe.png"></a></li>
+				</ul>
+			</li>
+			<li class='plus'>Veilles
+				<ul class='nv2'>
+					<li><a href='./index.php?module=veilles&amp;page=juridique'><img src="https://img.icons8.com/cotton/16/000000/courthouse.png"> Juridique <img src="https://img.icons8.com/cotton/16/000000/courthouse.png"></a></li>
+					<li><a href='./index.php?module=veilles&amp;page=technologique'><img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"> Technologique <img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"></a></li>
 				</ul>
 			</li>
 		</ul>
-	</div>
+	</div><!-- menu -->
 	
 	<div id='main'>
 		<span id="titrePage">
@@ -86,7 +91,7 @@
 	
 	<div id='planSite'>
 		<div class='blocGauche'>
-			l' association
+			Fiche de competence
 			<ul>
 				<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
 				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
@@ -94,7 +99,15 @@
 			</ul>
 		</div>
 		<div class='blocGauche'>
-			<span class='centrer'>...</span>
+			Projet
+			<ul>
+				<li><a href='./index.php?module=projet&amp;page=cinepassion38'> CinePassion38</a></li>
+				<li><a href='./index.php?module=projet&amp;page=keller2020'> Keller2020</a></li>
+				<li><a href='./index.php?module=projet&amp;page=agenda'> Agenda</a></li>
+				<li><a href='./index.php?module=projet&amp;page=mdi'> MDI</a></li>
+				<li><a href='./index.php?module=projet&amp;page=genesys'> Genesys</a></li>
+				<li><a href='./index.php?module=projet&amp;page=evasion'> Evasion</a></li>
+			</ul>	
 		</div>
 		<div class='blocDroite'>
 			<span class='centrer'>...</span>
@@ -103,11 +116,14 @@
 			<span class='centrer'>...</span>
 		</div>
 		<div class='blocCentre'>			
-			<span class='centrer'>...</span>
+			Veilles
+			<ul>
+				<li><a href='./index.php?module=veilles&amp;page=juridique'>Juridique</a></li>
+				<li><a href='./index.php?module=veilles&amp;page=technologique'>Technologique</a></li>
+			</ul>
 		</div>	
 		<hr/>
-	</div>
-
+	</div><!-- planSite -->
 	<div id='footer'>
 		<img alt='' id='fondFooter' src='./image/divers/fondFooter.jpg' />
 		<img alt='' src='./image/divers/cinepassion38LogoMini.png' id='cinepassion38LogoMini' />

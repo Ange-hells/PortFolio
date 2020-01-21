@@ -19,6 +19,7 @@
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
 	<link rel='stylesheet' type='text/css' href='./css/tab.css' />
 	<link rel='stylesheet' type='text/css' href='./css/onglet.css' />
+	<link rel='stylesheet' type='text/css' href='./css/projet.css' />
 	<!-- 	<link rel='stylesheet' href='./css/onglet.css' /> -->
 
 	<script type='text/javascript' src='./librairie/jquery/js/jquery1.7.2.js'></script>
@@ -130,11 +131,17 @@
 			<li class='plus'>Projet
 				<ul class='nv2'>
 					<li><a href='./index.php?module=projet&amp;page=cinepassion38'><img src='https://img.icons8.com/ios/16/000000/movie.png'> CinePassion38  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
-					<li><a href='./index.php?module=projet&amp;page=keler2020'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=keller2020'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=agenda'><img src="https://img.icons8.com/small/16/000000/address-book.png"> Agenda <img src="https://img.icons8.com/small/16/000000/address-book.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='https://img.icons8.com/ios/16/000000/movie.png'> MDI  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
 					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="https://img.icons8.com/small/16/000000/php.png"> Genesys <img src="https://img.icons8.com/small/16/000000/php.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="https://img.icons8.com/android/16/000000/globe.png"> Evasion <img src="https://img.icons8.com/android/16/000000/globe.png"></a></li>
+				</ul>
+			</li>
+			<li class='plus'>Veilles
+				<ul class='nv2'>
+					<li><a href='./index.php?module=veilles&amp;page=juridique'><img src="https://img.icons8.com/cotton/16/000000/courthouse.png"> Juridique <img src="https://img.icons8.com/cotton/16/000000/courthouse.png"></a></li>
+					<li><a href='./index.php?module=veilles&amp;page=technologique'><img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"> Technologique <img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"></a></li>
 				</ul>
 			</li>
 		</ul>
@@ -174,10 +181,17 @@
 				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
 				<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
 			</ul>
-
 		</div>
 		<div class='blocGauche'>
-			<span class='centrer'>...</span>
+			Projet
+			<ul>
+				<li><a href='./index.php?module=projet&amp;page=cinepassion38'> CinePassion38</a></li>
+				<li><a href='./index.php?module=projet&amp;page=keller2020'> Keller2020</a></li>
+				<li><a href='./index.php?module=projet&amp;page=agenda'> Agenda</a></li>
+				<li><a href='./index.php?module=projet&amp;page=mdi'> MDI</a></li>
+				<li><a href='./index.php?module=projet&amp;page=genesys'> Genesys</a></li>
+				<li><a href='./index.php?module=projet&amp;page=evasion'> Evasion</a></li>
+			</ul>	
 		</div>
 		<div class='blocDroite'>
 			<span class='centrer'>...</span>
@@ -186,7 +200,11 @@
 			<span class='centrer'>...</span>
 		</div>
 		<div class='blocCentre'>			
-			<span class='centrer'>...</span>
+			Veilles
+			<ul>
+				<li><a href='./index.php?module=veilles&amp;page=juridique'>Juridique</a></li>
+				<li><a href='./index.php?module=veilles&amp;page=technologique'>Technologique</a></li>
+			</ul>
 		</div>	
 		<hr/>
 	</div><!-- planSite -->
