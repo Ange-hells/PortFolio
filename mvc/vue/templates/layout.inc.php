@@ -133,7 +133,7 @@
 					<li><a href='./index.php?module=projet&amp;page=cinepassion38'><img src='https://img.icons8.com/ios/16/000000/movie.png'> CinePassion38  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
 					<li><a href='./index.php?module=projet&amp;page=keller2020'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=agenda'><img src="https://img.icons8.com/small/16/000000/address-book.png"> Agenda <img src="https://img.icons8.com/small/16/000000/address-book.png"></a></li>
-					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='https://img.icons8.com/ios/16/000000/movie.png'> MDI  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
+					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='./image/logo/mdi-16.png'> MDI  <img src='./image/logo/mdi-16.png'></a></li>
 					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="https://img.icons8.com/small/16/000000/php.png"> Genesys <img src="https://img.icons8.com/small/16/000000/php.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="https://img.icons8.com/android/16/000000/globe.png"> Evasion <img src="https://img.icons8.com/android/16/000000/globe.png"></a></li>
 				</ul>

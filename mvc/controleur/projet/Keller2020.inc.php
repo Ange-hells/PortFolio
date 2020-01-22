@@ -27,8 +27,8 @@ class controleurProjetKeller2020 extends controleur {
 		// ===============================================================================================================
 		// titres de la page
 		// ===============================================================================================================
-		$this->titreHeader = "présentation de l'association";
-		$this->titreMain = "présentation de l'association cinepassion38";
+		$this->titreHeader = "Keller2020";
+		$this->titreMain = "présentation du projet Keller2020";
 				
 		// ===============================================================================================================
 		// encarts
@@ -56,7 +56,10 @@ class controleurProjetKeller2020 extends controleur {
 	 * @copyright Christophe Goidin - Juin 2017
 	 */
 	public function defaut() {
-
+		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
+		$this->site = 0;
+		$this->git = "https://github.com/Ange-hells/Keller2020-2-";
+		$this->logo = "./image/logo/icons8-Keller2020-100.png";
         
 		parent::genererVue();
 	}

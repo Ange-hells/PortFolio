@@ -1,3 +1,14 @@
+#flex
+{
+    display: flex;
+    
+}
+
+#left-block
+{
+    
+}
+
 #lienProjet
 {
     display: block;
@@ -7,3 +18,23 @@
     width: 15%;
 
 }
+
+#center-block
+{
+
+}
+
+#center-block h1
+{
+    margin-top: 0px;
+    margin-left: 10px;
+    border-bottom: solid darkslategrey 3px;
+    
+
+}
+
+
+
+
+
+

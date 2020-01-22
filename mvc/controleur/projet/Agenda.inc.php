@@ -27,8 +27,8 @@ class controleurProjetAgenda extends controleur {
 		// ===============================================================================================================
 		// titres de la page
 		// ===============================================================================================================
-		$this->titreHeader = "présentation de l'association";
-		$this->titreMain = "présentation de l'association cinepassion38";
+		$this->titreHeader = "Agenda";
+		$this->titreMain = "présentation du projet Agenda";
 				
 		// ===============================================================================================================
 		// encarts
@@ -56,7 +56,10 @@ class controleurProjetAgenda extends controleur {
 	 * @copyright Christophe Goidin - Juin 2017
 	 */
 	public function defaut() {
-
+		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
+		$this->site = 0;
+		$this->git = "https://github.com/Ange-hells/Agenda";
+		$this->logo = "./image/logo/icons8-Agenda-100.png";
         
 		parent::genererVue();
 	}

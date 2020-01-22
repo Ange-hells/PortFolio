@@ -1,5 +1,5 @@
 <!-- ========= V U E =============================================================================================
- fichier				: ./mvc/vue/projet/agenda.inc.php
+ fichier				: ./mvc/vue/projet/genesys.inc.php
  auteur				: Nathan Thomasset (nathan.thomasset2@gmail.com)
  date de création	: septembre 2019
  date de modification:
@@ -11,7 +11,7 @@
             <nav id='lienProjet'>
                 <?php
                     echo "&nbsp<a href='$pptx' >Presentation pptx</a></br>";
-                    echo "&nbsp<a href='$site' >Agenda</a></br>";
+                    echo "&nbsp<a href='$site' >Genesys</a></br>";
                     echo "&nbsp<a href='$git'  >gitHub</a>";
                 ?>
             </nav>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div id='center-block'>
-            <h1>Agenda</h1>
+            <h1>Genesys</h1>
 
            
         </div>
