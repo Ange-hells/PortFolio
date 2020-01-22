@@ -213,7 +213,8 @@
 		<img alt='' id='fondFooter' src='./image/divers/fondFooter.jpg' />
 		<div id='w3c'>
 			<img alt='' src='./image/divers/w3cXhtml1.0.png' />&nbsp;&nbsp;&nbsp;&nbsp;
-			<img alt='' src='./image/divers/w3cCss.png' />
+			<img alt='' src='./image/divers/w3cCss.png' />&nbsp;&nbsp;&nbsp;&nbsp;
+			<img alt='' src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/>
 		</div>
 	</div><!-- footer -->
 
