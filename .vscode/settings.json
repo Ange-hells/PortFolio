@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "manga",
+            "dialect": "MySQL",
+            "name": "manga",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
