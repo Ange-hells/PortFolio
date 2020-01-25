@@ -1,0 +1,50 @@
+// for aplicate seting past this code to file (C:\Users\perso\AppData\Roaming\Code\User\settings.json) 
+// if not exist settings.json file greate is or use vscode setting in meterial icon onglet
+
+{
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorBlinking": "expand",
+    "git.autofetch": true,
+    "window.titleBarStyle": "native",
+    "material-icon-theme.folders.color": "#42a5f5",
+
+    "material-icon-theme.files.associations": {
+        // "*.ts": "typescript",
+        // "fileName.ts": "angular",
+        "index.php": "php_elephant",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": ""
+
+    },
+
+    "material-icon-theme.folders.associations": {
+        "framework": "php",
+        "buffer": "temp",
+        "mvc": "layout",
+        "modele": "class",
+        "controleur": "controller",
+        "texte": "docs",
+        "librairie": "lib",
+        "": "",
+        "": "",
+        "": "",
+        "": ""
+
+    },
+   
+    "material-icon-theme.languages.associations": {
+        "languageId": "iconName",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": "",
+        "": ""
+
+    }
+    
+}
