@@ -58,6 +58,7 @@ class controleurProjetCinePassion38 extends controleur {
 	 */
 	public function defaut() {
 		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
+		$this->docx = "";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/CinePassion38";
 		$this->logo = "./image/logo/icons8-film-100 (1).png";

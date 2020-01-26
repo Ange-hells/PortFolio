@@ -11,6 +11,7 @@
             <nav id='lienProjet'>
                 <?php
                     echo "&nbsp<a href='$pptx' >Presentation pptx</a></br>";
+                    echo "&nbsp<a href='$docx' >fiche docx</a></br>";
                     echo "&nbsp<a href='$site' >Agenda</a></br>";
                     echo "&nbsp<a href='$git'  >gitHub</a>";
                 ?>
