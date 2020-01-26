@@ -1,6 +1,7 @@
 // for aplicate seting past this code to file (C:\Users\perso\AppData\Roaming\Code\User\settings.json) 
 // if not exist settings.json file greate is or use vscode setting in meterial icon onglet
 
+
 {
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
@@ -29,7 +30,7 @@
         "controleur": "controller",
         "texte": "docs",
         "librairie": "lib",
-        "": "",
+        "sql": "database",
         "": "",
         "": "",
         "": ""
@@ -45,6 +46,7 @@
         "": "",
         "": ""
 
-    }
+    },
     
+    "background.customImages": ["D:/Users/perso/Pictures/Font d'écrant/Oceane2.5.png"]
 }
