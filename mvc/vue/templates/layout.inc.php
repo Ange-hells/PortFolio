@@ -136,6 +136,7 @@
 					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='./image/logo/mdi-16.png'> MDI  <img src='./image/logo/mdi-16.png'></a></li>
 					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="https://img.icons8.com/small/16/000000/php.png"> Genesys <img src="https://img.icons8.com/small/16/000000/php.png"></a></li>
 					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="https://img.icons8.com/android/16/000000/globe.png"> Evasion <img src="https://img.icons8.com/android/16/000000/globe.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=owa'><img src="https://img.icons8.com/windows/16/000000/web.png"> Owa <img src="https://img.icons8.com/windows/16/000000/web.png"></a></li>
 				</ul>
 			</li>
 			<li class='plus'>Veilles
