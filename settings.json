@@ -31,7 +31,7 @@
         "texte": "docs",
         "librairie": "lib",
         "sql": "database",
-        "": "",
+        "sgbd": "database",
         "": "",
         "": ""
 
