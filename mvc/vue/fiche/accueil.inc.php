@@ -18,7 +18,6 @@
                         <th class="totab">Liste des <?php echo $nbFiches; ?> Fiche de competence disponible</th>
                         <th class="totab"> </th>
                         <th class="totab"> </th>
-                        <th class="totab"> </th>
                     </tr>
                     <tr>
                         <th class="totab">Titre Fiche</th>
@@ -27,17 +26,15 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
                         <?php 
-                        if (isset($listeFilm)){
-                            while (!$listeFilm->estVide()){
-                                    $uneFiche = $listeFilm-> getUnElement();
+                        if (isset($listFiches)){
+                            while (!$listFiches->estVide()){
+                                    $uneFiche = $listFiches-> getUnElement();
                         ?>
                     <tr class="ligne">
-                        <td class="titre"><abbr title='film realisé par <?php echo $uneFiche->prenomReal . " " . $unFilm->nomReal; ?>'><?php echo $unFilm->titreFilm; ?></abbr></td>
-                        <td class="genre"><?php echo $uneFiche->libelleGenre; ?></td>
-                        <td class="annee"><?php echo $uneFiche->annee; ?></td>
-                        <td class="duree"><?php echo $uneFiche->duree; ?></td>
+                        <td class="titre"><?php echo $uneFiche->TitreFiche; ?></td>
+                        <td class="genre"><?php echo $uneFiche->TypeFiche; ?></td>
+                        <!-- <td class="annee"><?php echo $uneFiche->annee; ?></td> -->
                     </tr>
                     
                     <?php }}?>

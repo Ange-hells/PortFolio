@@ -64,6 +64,7 @@ class controleurFicheAccueil extends controleur {
 	 */
 	public function defaut() {
         $this->nbFiches = $this->modele->getNbrFiches();
+        $this->ListFiches = $this->modele->getListFiche();
 
 
 		parent::genererVue();
