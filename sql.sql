@@ -1,3 +1,23 @@
+CREATE TABLE `situation` (
+	`NumSituation` TINYINT(4) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`LibelleSituation` VARCHAR(50) NOT NULL,
+	`TypeFiche` TINYINT(3) UNSIGNED NOT NULL,
+	PRIMARY KEY (`NumSituation`)
+);
+
+CREATE TABLE `competence` (
+	`CodeCompetence` CHAR(7) NOT NULL,
+	`LibelleCompetence` VARCHAR(160) NOT NULL,
+	PRIMARY KEY (`CodeCompetence`)
+);
+
+CREATE TABLE `competencesituation` (
+	`NumAsso` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+	`CodeCompetence` CHAR(7) NOT NULL,
+	`NumSituation` TINYINT(4) UNSIGNED NOT NULL,
+	PRIMARY KEY (`NumAsso`)
+);
+
 INSERT INTO competence 
 VALUES  ('A1.1.1', 'Analyse du cahier des charges d''un service à produire'),
         ('A1.1.2', 'Étude de l''impact de l''intégration d''un service sur le système informatique'),
@@ -47,22 +67,24 @@ VALUES  ('A1.1.1', 'Analyse du cahier des charges d''un service à produire'),
         ('A5.2.1', 'Veille technologique'),
         ('A5.2.3', 'Repérage des compléments de formation ou d''auto-formation ...'),
         ('A5.2.4', 'Étude d''une technologie, d''un composant, d''un outil ou d''une méthode')
+;
 
-INSERT INTO situation (LibelleSituation)
-VALUES  ('Exel - Cas STEMA'),
-        ('Windows Form - jeux de carte'),
-        ('MDI'),
-        ('Site Web 1er Année ( Stema )'),
-        ('Site web 2em Année (CinéPassion38 - lot1)'),
-        ('Site web 2em Année (CinéPassion38 - lot2)'),
-        ('CinePassion38')
-        ('Windows Phone (Agenda)'),
-        ('Service Web'),
-        ('Keller2020')
-        ('Polymorphisme'),
-        ('RAID'),
-        ('Sauvegarde'),
-        ('Docker')
+INSERT INTO situation (LibelleSituation,TypeFiche)
+VALUES  ('Exel - Cas STEMA',2),
+        ('Windows Form - jeux de carte',2),
+        ('MDI',1),
+        ('Site Web 1er Année ( Stema )',2),
+        ('Site web 2em Année (CinéPassion38 - lot1)',2),
+        ('Site web 2em Année (CinéPassion38 - lot2)',2),
+        ('CinePassion38',1)
+        ('Windows Phone (Agenda)',2),
+        ('Service Web',2),
+        ('Keller2020',1)
+        ('Polymorphisme',2),
+        ('RAID',2),
+        ('Sauvegarde',2),
+        ('Docker',2)
+;
 
 INSERT INTO competencesituation (CodeCompetence,NumSituation)
 VALUES  ('A1.1.1',1),
@@ -174,4 +196,5 @@ VALUES  ('A1.1.1',1),
         ('',),
         ('',),
         ('',),
+;
 
