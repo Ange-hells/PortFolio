@@ -21,10 +21,9 @@
                         <th class="totab"> </th>
                     </tr>
                     <tr>
-                        <th class="totab">Titre</th>
-                        <th class="totab">Genre</th>
-                        <th class="totab">Année</th>
-                        <th class="totab">Durée</th>
+                        <th class="totab">Titre Fiche</th>
+                        <th class="totab">type fiche</th>
+                        <th class="totab">Disponible</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -32,13 +31,13 @@
                         <?php 
                         if (isset($listeFilm)){
                             while (!$listeFilm->estVide()){
-                                    $unFilm= $listeFilm-> getUnElement();
+                                    $uneFiche = $listeFilm-> getUnElement();
                         ?>
                     <tr class="ligne">
-                        <td class="titre"><abbr title='film realisé par <?php echo $unFilm->prenomReal . " " . $unFilm->nomReal; ?>'><?php echo $unFilm->titreFilm; ?></abbr></td>
-                        <td class="genre"><?php echo $unFilm->libelleGenre; ?></td>
-                        <td class="annee"><?php echo $unFilm->annee; ?></td>
-                        <td class="duree"><?php echo $unFilm->duree; ?></td>
+                        <td class="titre"><abbr title='film realisé par <?php echo $uneFiche->prenomReal . " " . $unFilm->nomReal; ?>'><?php echo $unFilm->titreFilm; ?></abbr></td>
+                        <td class="genre"><?php echo $uneFiche->libelleGenre; ?></td>
+                        <td class="annee"><?php echo $uneFiche->annee; ?></td>
+                        <td class="duree"><?php echo $uneFiche->duree; ?></td>
                     </tr>
                     
                     <?php }}?>
