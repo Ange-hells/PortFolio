@@ -16,7 +16,7 @@ class modeleFicheAccueil extends modele{
     function getListFiche(){
         $sql = "SELECT LibelleSituation as TitreFiche, LibelleTypeFiche as TypeFiche
                 FROM situation s, typefiche t
-                WHERE s.TypeFiche = t.NumType";
+                WHERE s.TypeFiche = t.IdTypeFiche";
 
         $collection = new collection();
         $pdoStat = $this->executerRequete($sql);

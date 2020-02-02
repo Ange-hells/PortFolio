@@ -124,8 +124,8 @@
 			<li class='plus'>Fiche de competence
 				<ul class='nv2'>
 					<li><a href='./index.php?module=fiche&amp;page=accueil'><img src="https://img.icons8.com/metro/16/000000/purchase-order.png"> Liste des fiches <img src="https://img.icons8.com/metro/16/000000/purchase-order.png"></a></li>
-					<li><a href='./index.php?module=fiche&amp;page=partenaire'>nos partenaires</a></li>
-					<li><a href='./index.php?module=fiche&amp;page=plan'>plan</a></li>
+					<!-- <li><a href='./index.php?module=fiche&amp;page=partenaire'>nos partenaires</a></li>
+					<li><a href='./index.php?module=fiche&amp;page=plan'>plan</a></li> -->
 				</ul>
 			</li>
 			<li class='plus'>Projet

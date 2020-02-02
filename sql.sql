@@ -1,3 +1,7 @@
+CREATE DATABASE portfolio;
+
+USE portfolio;
+
 CREATE TABLE `situation` (
 	`NumSituation` TINYINT(4) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`LibelleSituation` VARCHAR(50) NOT NULL,
@@ -16,6 +20,12 @@ CREATE TABLE `competencesituation` (
 	`CodeCompetence` CHAR(7) NOT NULL,
 	`NumSituation` TINYINT(4) UNSIGNED NOT NULL,
 	PRIMARY KEY (`NumAsso`)
+);
+
+CREATE TABLE `typefiche` (
+    `IdTypeFiche` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `LabelleTypeFiche` VARCHAR(10) NOT NULL,
+    PRIMARY KEY (`IdTypeFiche`)
 );
 
 INSERT INTO competence 
@@ -76,14 +86,20 @@ VALUES  ('Exel - Cas STEMA',2),
         ('Site Web 1er Année ( Stema )',2),
         ('Site web 2em Année (CinéPassion38 - lot1)',2),
         ('Site web 2em Année (CinéPassion38 - lot2)',2),
-        ('CinePassion38',1)
+        ('CinePassion38',1),
         ('Windows Phone (Agenda)',2),
         ('Service Web',2),
-        ('Keller2020',1)
+        ('Keller2020',1),
         ('Polymorphisme',2),
         ('RAID',2),
         ('Sauvegarde',2),
         ('Docker',2)
+;
+
+INSERT Into typefiche 
+VALUES  (1,'Projet'),
+        (2,'Fiche'),
+        (3,'Competence')
 ;
 
 INSERT INTO competencesituation (CodeCompetence,NumSituation)
@@ -165,36 +181,36 @@ VALUES  ('A1.1.1',1),
         ('A1.3.2',13),
         ('A2.3.2',13),
         ('A5.2.3',13),
-        ('A5.2.4',13),        
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),        
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),        
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),        
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),        
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
-        ('',),
+        ('A5.2.4',13)    
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),        
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),        
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),        
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),        
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
+        -- ('',),
 ;
 
