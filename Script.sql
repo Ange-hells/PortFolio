@@ -24,7 +24,7 @@ CREATE TABLE `competencesituation` (
 
 CREATE TABLE `typefiche` (
     `IdTypeFiche` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
-    `LabelleTypeFiche` VARCHAR(10) NOT NULL,
+    `LibelleTypeFiche` VARCHAR(10) NOT NULL,
     PRIMARY KEY (`IdTypeFiche`)
 );
 
