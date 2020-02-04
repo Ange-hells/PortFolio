@@ -64,10 +64,20 @@ class controleurFicheAccueil extends controleur {
 	 */
 	public function defaut() {
         $this->nbFiches = $this->modele->getNbrFiches();
-        $this->ListFiches = $this->modele->getListFiche();
+        $this->ListFiches = $this->modele->getListFiche(1);
 
 
 		parent::genererVue();
+	}
+
+	public static function EstDisponible($var){
+		$Dispo;
+		if ($var == 1) {
+			$Dispo = '&#x2713;';
+		} else {
+			$Dispo =  '&#x2717;';
+		}
+		return $Dispo;
 	}
 
 } // class
