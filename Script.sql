@@ -1,12 +1,13 @@
-CREATE DATABASE portfolio;
+CREATE DATABASE `portfolio`;
 
-USE portfolio;
+USE `portfolio`;
 
 CREATE TABLE `situation` (
 	`NumSituation` TINYINT(4) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`LibelleSituation` VARCHAR(50) NOT NULL,
 	`TypeFiche` TINYINT(3) UNSIGNED NOT NULL,
     `Disponible` TINYINT(1) UNSIGNED NOT NULL,
+    `SituationObligatoire` TINYINT UNSIGNED NOT NULL,
 	PRIMARY KEY (`NumSituation`)
 );
 
@@ -27,6 +28,12 @@ CREATE TABLE `typefiche` (
     `IdTypeFiche` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
     `LibelleTypeFiche` VARCHAR(10) NOT NULL,
     PRIMARY KEY (`IdTypeFiche`)
+);
+
+CREATE TABLE `situationobilicatoire` (
+	`IdSituation` INT(11) NULL DEFAULT NULL AUTO_INCREMENT,
+	`LibelleSituation` VARCHAR(160) NULL DEFAULT NULL,
+    PRIMARY KEY (`IdSituation`)
 );
 
 INSERT INTO competence 
@@ -80,21 +87,21 @@ VALUES  (`A1.1.1`, `Analyse du cahier des charges d'un service à produire`),
         (`A5.2.4`, `Étude d'une technologie, d'un composant, d'un outil ou d'une méthode`)
 ;
 
-INSERT INTO situation (LibelleSituation,TypeFiche)
-VALUES  (`Exel - Cas STEMA`,2),
-        (`Windows Form - jeux de carte`,2),
-        (`MDI`,1),
-        (`Site Web 1er Année ( Stema )`,2),
-        (`Site web 2em Année (CinéPassion38 - lot1)`,2),
-        (`Site web 2em Année (CinéPassion38 - lot2)`,2),
-        (`CinePassion38`,1),
-        (`Windows Phone (Agenda)`,2),
-        (`Service Web`,2),
-        (`Keller2020`,1),
-        (`Polymorphisme`,2),
-        (`RAID`,2),
-        (`Sauvegarde`,2),
-        (`Docker`,2)
+INSERT INTO situation (LibelleSituation,TypeFiche,Disponible,SituationObligatoire)
+VALUES  (`Exel - Cas STEMA`,2,0,),
+        (`Windows Form - jeux de carte`,2,0,),
+        (`MDI`,1,1,),
+        (`Site Web 1er Année ( Stema )`,2,0,),
+        (`Site web 2em Année (CinéPassion38 - lot1)`,2,0,),
+        (`Site web 2em Année (CinéPassion38 - lot2)`,2,0,),
+        (`CinePassion38`,1,1,),
+        (`Windows Phone (Agenda)`,2,0,),
+        (`Service Web`,2,0,),
+        (`Keller2020`,1,1,),
+        (`Polymorphisme`,2,0,),
+        (`RAID`,2,0,),
+        (`Sauvegarde`,2,0,),
+        (`Docker`,2,0,)
 ;
 
 INSERT Into typefiche 
@@ -215,3 +222,9 @@ VALUES  (`A1.1.1`,1),
         -- (``,),
 ;
 
+INSERT Into situationobilicatoire 
+VALUES  (1,`Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)`),
+        (2,`Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat `),
+        (3,`Elaboration de documents relatifs à la production et à la fourniture de services`),
+        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`)
+;
