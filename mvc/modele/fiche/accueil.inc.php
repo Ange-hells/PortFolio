@@ -13,19 +13,22 @@ class modeleFicheAccueil extends modele{
         return $nbfiche->nbFiches;
     }
         
-    function getListFiche(){
-        $sql = "SELECT LibelleSituation as TitreFiche, LibelleTypeFiche as TypeFiche
-                FROM situation s, typefiche t
-                WHERE s.TypeFiche = t.IdTypeFiche";
-
+    public function getListFiche($i){
         $collection = new collection();
-        $pdoStat = $this->executerRequete($sql);
-        while(($uneFiche = $pdoStat->fetchObject()) !== false){
-            $collection->ajouter($uneFiche);
-            
-        }
-        return $collection;
+        while($i<=modeleFicheAccueil::getNbrFiches()){
+            $sql = "SELECT LibelleSituation as TitreFiche, LibelleTypeFiche as TypeFiche, Disponible, count(NumAsso) as nbCompetence
+                    FROM situation s, typefiche t, competencesituation c
+                    WHERE s.TypeFiche = t.IdTypeFiche
+                    AND c.NumSituation = s.NumSituation
+                    AND s.NumSituation = '$i'";
 
+            $pdoStat = $this->executerRequete($sql);
+            while(($uneFiche = $pdoStat->fetchObject()) !== false){
+                $collection->ajouter($uneFiche); 
+            }
+            $i += 1;
+        }   
+        return $collection;
     }
 
 }
