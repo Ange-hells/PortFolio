@@ -30,7 +30,7 @@ CREATE TABLE `typefiche` (
     PRIMARY KEY (`IdTypeFiche`)
 );
 
-CREATE TABLE `situationobilicatoire` (
+CREATE TABLE `situationobligatoire` (
 	`IdSituation` INT(11) NULL DEFAULT NULL AUTO_INCREMENT,
 	`LibelleSituation` VARCHAR(160) NULL DEFAULT NULL,
     PRIMARY KEY (`IdSituation`)
@@ -108,6 +108,13 @@ INSERT Into typefiche
 VALUES  (1,`Projet`),
         (2,`Fiche`),
         (3,`Competence`)
+;
+
+INSERT Into situationobligatoire 
+VALUES  (1,`Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)`),
+        (2,`Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat `),
+        (3,`Elaboration de documents relatifs à la production et à la fourniture de services`),
+        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`)
 ;
 
 INSERT INTO competencesituation (CodeCompetence,NumSituation)
@@ -222,9 +229,3 @@ VALUES  (`A1.1.1`,1),
         -- (``,),
 ;
 
-INSERT Into situationobilicatoire 
-VALUES  (1,`Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)`),
-        (2,`Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat `),
-        (3,`Elaboration de documents relatifs à la production et à la fourniture de services`),
-        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`)
-;

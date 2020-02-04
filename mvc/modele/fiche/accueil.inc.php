@@ -16,7 +16,8 @@ class modeleFicheAccueil extends modele{
     public function getListFiche($i){
         $collection = new collection();
         while($i<=modeleFicheAccueil::getNbrFiches()){
-            $sql = "SELECT LibelleSituation as TitreFiche, LibelleTypeFiche as TypeFiche, Disponible, count(NumAsso) as nbCompetence
+            $sql = "SELECT LibelleSituation as TitreFiche, LibelleTypeFiche as TypeFiche, Disponible, 
+                        count(NumAsso) as nbCompetence, SituationObligatoire
                     FROM situation s, typefiche t, competencesituation c
                     WHERE s.TypeFiche = t.IdTypeFiche
                     AND c.NumSituation = s.NumSituation

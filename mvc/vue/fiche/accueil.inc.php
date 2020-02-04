@@ -41,6 +41,7 @@
                         <td class="Type"><?php echo $uneFiche->TypeFiche; ?></td>
                         <td class="Dispo"><?php echo ($uneFiche->Disponible==1) ? '&#x2713;': '&#x2717;'; ?></td>
                         <td class="nbCompetence"><?php echo $uneFiche->nbCompetence; ?></td>
+                        <td class="S.Obligatoire"><?php echo ($uneFiche->SituationObligatoire==0) ? '/':$uneFiche->SituationObligatoire; ?></td>
                     </tr>
                     <?php }}?>
                 </tbody>
