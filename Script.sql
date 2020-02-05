@@ -8,6 +8,7 @@ CREATE TABLE `situation` (
 	`TypeFiche` TINYINT(3) UNSIGNED NOT NULL,
     `Disponible` TINYINT(1) UNSIGNED NOT NULL,
     `SituationObligatoire` TINYINT UNSIGNED NOT NULL,
+    `NomLien` VARCHAR(15) NOT NULL,
 	PRIMARY KEY (`NumSituation`)
 );
 
@@ -87,21 +88,21 @@ VALUES  (`A1.1.1`, `Analyse du cahier des charges d'un service à produire`),
         (`A5.2.4`, `Étude d'une technologie, d'un composant, d'un outil ou d'une méthode`)
 ;
 
-INSERT INTO situation (LibelleSituation,TypeFiche,Disponible,SituationObligatoire)
-VALUES  (`Exel - Cas STEMA`,2,0,),
-        (`Windows Form - jeux de carte`,2,0,),
-        (`MDI`,1,1,),
-        (`Site Web 1er Année ( Stema )`,2,0,),
-        (`Site web 2em Année (CinéPassion38 - lot1)`,2,0,),
-        (`Site web 2em Année (CinéPassion38 - lot2)`,2,0,),
-        (`CinePassion38`,1,1,),
-        (`Windows Phone (Agenda)`,2,0,),
-        (`Service Web`,2,0,),
-        (`Keller2020`,1,1,),
-        (`Polymorphisme`,2,0,),
-        (`RAID`,2,0,),
-        (`Sauvegarde`,2,0,),
-        (`Docker`,2,0,)
+INSERT INTO situation (LibelleSituation,TypeFiche,Disponible,SituationObligatoire,NomLien)
+VALUES  (`Exel - Cas STEMA`,2,0,1,`ExelStema`),
+        (`Windows Form - jeux de carte`,2,0,4,`Memorie`),
+        (`MDI`,1,1,,`MDI`),
+        (`Site Web 1er Année ( Stema )`,2,0,1,`Stema`),
+        (`Site web 2em Année (CinéPassion38 - lot1)`,2,0,1,`Cp38Lot1`),
+        (`Site web 2em Année (CinéPassion38 - lot2)`,2,0,1,`Cp38Lot2`),
+        (`CinePassion38`,1,1,,`CinePassion38`),
+        (`Windows Phone (Agenda)`,2,0,4,`Agenda`),
+        (`Service Web`,2,0,4,`ServiceWeb`),
+        (`Keller2020`,1,1,,`Keller2020`),
+        (`Polymorphisme`,2,0,,`Polymorphisme`),
+        (`RAID`,2,0,,`RAID`),
+        (`Sauvegarde`,2,0,,`Sauvegarde`),
+        (`Docker`,2,0,,`Docker`)
 ;
 
 INSERT Into typefiche 
