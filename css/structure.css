@@ -552,11 +552,11 @@ div#footer img#cinepassion38LogoMini
 	z-index: 3;
 }
 
-div#footer div#w3c 
+div#footer div#w3c
 {
 	position: absolute;
 	top: 12px;				/* pour que les images soient centrées verticalement : hauteur du bloc 40px, hauteur de l'image : 16px => (40-16)/2=12 */
-	left: 490px;			/* pour que les images soient centrées horizontalement : largeur du bloc 1170px, largeur d'une image : 42px, espacement entre les images : 16px (4 espaces) => (1170-(2*42)-16)/2 = 535 */
+	left: 35%;			/* pour que les images soient centrées horizontalement : largeur du bloc 1170px, largeur d'une image : 42px, espacement entre les images : 16px (4 espaces) => (1170-(2*42)-16)/2 = 535 */
 	z-index: 2;				/* facultatif */
 }
 
