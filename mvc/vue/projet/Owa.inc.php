@@ -10,9 +10,10 @@
         <div id='left-block'>
             <nav id='lienProjet'>
                 <?php
-                    echo "&nbsp<a href='$pptx' >Presentation pptx</a></br>";
-                    echo "&nbsp<a href='$site' >Owa</a></br>";
-                    echo "&nbsp<a href='$git'  >gitHub</a>";
+                    echo "&nbsp;<a href='$pptx' >Presentation pptx</a></br>";
+                    echo "&nbsp;<a href='$docx' >Fiche docx</a></br>";
+                    echo "&nbsp;<a href='$site' >Owa</a></br>";
+                    echo "&nbsp;<a href='$git'  >gitHub</a>";
                 ?>
             </nav>
             <div id='logo'>
