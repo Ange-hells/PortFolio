@@ -91,18 +91,18 @@ VALUES  (`A1.1.1`, `Analyse du cahier des charges d'un service à produire`),
 INSERT INTO situation (LibelleSituation,TypeFiche,Disponible,SituationObligatoire,NomLien)
 VALUES  (`Exel - Cas STEMA`,2,0,1,`ExelStema`),
         (`Windows Form - jeux de carte`,2,0,4,`Memorie`),
-        (`MDI`,1,1,,`MDI`),
+        (`MDI`,1,1,5,`MDI`),
         (`Site Web 1er Année ( Stema )`,2,0,1,`Stema`),
         (`Site web 2em Année (CinéPassion38 - lot1)`,2,0,1,`Cp38Lot1`),
         (`Site web 2em Année (CinéPassion38 - lot2)`,2,0,1,`Cp38Lot2`),
-        (`CinePassion38`,1,1,,`CinePassion38`),
+        (`CinePassion38`,1,1,5,`CinePassion38`),
         (`Windows Phone (Agenda)`,2,0,4,`Agenda`),
         (`Service Web`,2,0,4,`ServiceWeb`),
-        (`Keller2020`,1,1,,`Keller2020`),
-        (`Polymorphisme`,2,0,,`Polymorphisme`),
-        (`RAID`,2,0,,`RAID`),
-        (`Sauvegarde`,2,0,,`Sauvegarde`),
-        (`Docker`,2,0,,`Docker`)
+        (`Keller2020`,1,1,5,`Keller2020`),
+        (`Polymorphisme`,2,0,5,`Polymorphisme`),
+        (`RAID`,2,0,5,`RAID`),
+        (`Sauvegarde`,2,0,5,`Sauvegarde`),
+        (`Docker`,2,0,5,`Docker`)
 ;
 
 INSERT Into typefiche 
@@ -115,7 +115,8 @@ INSERT Into situationobligatoire
 VALUES  (1,`Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)`),
         (2,`Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat `),
         (3,`Elaboration de documents relatifs à la production et à la fourniture de services`),
-        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`)
+        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`),
+        (5,``)
 ;
 
 INSERT INTO competencesituation (CodeCompetence,NumSituation)
