@@ -69,17 +69,6 @@ class controleurFicheAccueil extends controleur {
 
 		parent::genererVue();
 	}
-
-	public static function EstDisponible($var){
-		$Dispo;
-		if ($var == 1) {
-			$Dispo = '&#x2713;';
-		} else {
-			$Dispo =  '&#x2717;';
-		}
-		return $Dispo;
-	}
-
 } // class
 
 ?>
