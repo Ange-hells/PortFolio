@@ -18,7 +18,7 @@
 	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
 	<link rel='stylesheet' type='text/css' href='./css/tab.css' />
-	<link rel='stylesheet' type='text/css' href='./css/onglet.css' />
+	<!-- <link rel='stylesheet' type='text/css' href='./css/onglet.css' /> -->
 	<link rel='stylesheet' type='text/css' href='./css/projet.css' />
 	<!-- 	<link rel='stylesheet' href='./css/onglet.css' /> -->
 
@@ -145,6 +145,11 @@
 					<li><a href='./index.php?module=veilles&amp;page=technologique'><img src="./image/logo/coeursouris-16.png"> Technologique <img src="./image/logo/coeursouris-16.png"></a></li>
 				</ul>
 			</li>
+			<li class='plus'>Contact
+				<ul class='nv2'>
+					<li><a href='./index.php?module=contact&amp;page=Contact'><img src="./image/logo/contact-16.png"> Contact <img src="./image/logo/contact-16.png"></a></li>
+				</ul>
+			</li>
 		</ul>
 	</div><!-- menu -->
 	
@@ -178,9 +183,7 @@
 		<div class='blocGauche'>
 			Fiche de competence
 			<ul>
-				<li><a href='./index.php?module=cinepassion38&amp;page=accueil'>accueil</a></li>
-				<li><a href='./index.php?module=cinepassion38&amp;page=partenaire'>nos partenaires</a></li>
-				<li><a href='./index.php?module=cinepassion38&amp;page=plan'>plan</a></li>
+				<li><a href='./index.php?module=fiche&amp;page=accueil'>Liste des fiches</a></li>
 			</ul>
 		</div>
 		<div class='blocGauche'>
@@ -198,7 +201,10 @@
 			<span class='centrer'>...</span>
 		</div>
 		<div class='blocDroite'>
-			<span class='centrer'>...</span>
+			Contact
+			<ul>
+				<li><a href='./index.php?module=contact&amp;page=accueil'>Contact</a></li>
+			</ul>
 		</div>
 		<div class='blocCentre'>			
 			Veilles
@@ -217,12 +223,16 @@
 				<img alt='' src='./image/partenaire/valid_html5.png' />&nbsp;
 				<img alt='' src='./image/partenaire/valid_css3.png' />
 			</a>&nbsp;
+			<a href='./index.php?module=home&amp;page=legal'>
+				<img alt='' src='./image/partenaire/mention.gif' />
+			</a>&nbsp;
 			<a href='https://creativecommons.org/choose/'>
 				<img alt='' src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png"/>
 			</a>&nbsp;
 			<a href='https://icons8.com/icons'>
 				<img alt='' src='./image/partenaire/iconByIcon8.png'/>
 			</a>
+			
 		</div>
 	</div><!-- footer -->
 
