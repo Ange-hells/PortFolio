@@ -30,30 +30,27 @@ tr
     margin-bottom: 0px;
 }
 
-abbr
+/* abbr
 {
 	text-decoration: none;
-	
-}
+} */
 
 tr:nth-child(even)
 {
-	background-color: silver;
-	
+	background-color: var(--couleurNiveau2);
+	color: black;
 }
 
 tr:nth-child(odd)
 {
 	background-color: white;
-	
+	color: black;
 }
 
 .totab
 {
-	background-color: dimgrey;
+	background-color: var(--couleurNiveau3);
 	color: black;
-	
-	
 }
 
 .real
@@ -70,7 +67,6 @@ tr:nth-child(odd)
 {
 	border: solid black 2px;
 	border-radius: 5px;
-	
 }
 	
 	
