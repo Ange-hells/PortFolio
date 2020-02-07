@@ -8,23 +8,33 @@
 <div id='content2'>
     <div id='flex'>
         <div id='left-block'>
-            <div>
-                <p>
+            <div class='carte'>
+                <div class='ligne'>
                     <h1>Auteur :</h1><h3>Nathan THOMASSET</h3>
+                </div>
+                <div class='ligne'>
                     <h1>Tel :</h1><h3>0782941983</h3>
+                </div>
+                <div class='ligne'>
                     <h1>Mail :</h1><h3>nathan.thomasset2@gmail.com</h3>
-                </p>
+                </div>
             </div>
-            <div> 
-                <p>
-                    <h1>WebDesigner :</h1><h3>Nathan THOMASSET</h3>
-                    <h1>Tel :</h1><h3>0782941983</h3>
-                    <h1>Mail :</h1><h3>nathan.thomasset2@gmail.com</h3>
-                </p> 
+            <div class='carte'> 
+                <div>
+                    <div class='ligne'>
+                        <h1>WebDesigner :</h1><h3>Nathan THOMASSET</h3>
+                </div>
+                    <div class='ligne'>
+                        <h1>Tel :</h1><h3>0782941983</h3>
+                </div>
+                    <div class='ligne'>
+                        <h1>Mail :</h1><h3>nathan.thomasset2@gmail.com</h3>
+                </div>
+                </div> 
             </div>
         </div>
         <div id='center-block'>
-
+            
         </div>
         <div id='right-block'>
             
