@@ -18,14 +18,23 @@
             </nav>
             <div id='logo'>
                 <?php
-                    echo "<img src='$logo' alt=''/>"
+                    echo "<img src='$logo' alt=''/>";
                 ?>
             </div>
         </div>
         <div id='center-block'>
             <h1>Owa</h1>
-
-           
+            <h2>&nbsp;Presentation</h2>
+            <p>
+                Owa (One Web App) a vue le jour lors du developpement de l'application <a href="./index.php?module=fiche&amp;page=gestionContact"> 
+                "gestion contact"</a> realiser en stage de premiere année à la maire d'echirolle. </br>
+                Le but d'Owa est de permetre l'utilisation d'une application web (client leger) comme s'il s'agisser d'une application installer sur 
+                poste (client lourd). </br> 
+            </p>
+            <h2>&nbsp;Fonctionaliter</h2>
+           <p>
+                L'application ce presente comme suit : 
+            </p>
         </div>
     </div><!--flex-->
 </div><!-- content2 -->
