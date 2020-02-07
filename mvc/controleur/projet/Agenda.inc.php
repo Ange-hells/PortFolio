@@ -56,8 +56,8 @@ class controleurProjetAgenda extends controleur {
 	 * @copyright Christophe Goidin - Juin 2017
 	 */
 	public function defaut() {
-		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
-		$this->docx = "";
+		$this->pptx = "https://1drv.ms/p/s!Agp_UlKVcoB4c4kI9MEgS1AQ1TM?e=BlWa0M";
+		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQUu03a5ZRobq7zQ?e=UDWphE";
 		$this->site = "./index.php?module=page&amp;page=Agneda";
 		$this->git = "https://github.com/Ange-hells/Agenda";
 		$this->logo = "./image/logo/icons8-Agenda-100.png";

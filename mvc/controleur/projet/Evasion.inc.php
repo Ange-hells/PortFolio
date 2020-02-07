@@ -56,8 +56,8 @@ class controleurProjetEvasion extends controleur {
 	 * @copyright Christophe Goidin - Juin 2017
 	 */
 	public function defaut() {
-		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
-		$this->docx = "";
+		$this->pptx = "https://1drv.ms/p/s!Agp_UlKVcoB4e0P8wF4zfh_I-hs?e=fQwE5B";
+		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQDFvx3K-oP3U3zM?e=FP2ED7";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/CinePassion38";
 		$this->logo = "./image/logo/icons8-europe-100.png";

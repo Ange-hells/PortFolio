@@ -56,8 +56,8 @@ class controleurProjetKeller2020 extends controleur {
 	 * @copyright Christophe Goidin - Juin 2017
 	 */
 	public function defaut() {
-		$this->pptx = "https://onedrive.live.com/embed?cid=7880729552527F0A&resid=7880729552527F0A%21110&authkey=ABmw8z63gZzz0uw&em=2";
-		$this->docx = "";
+		$this->pptx = "https://1drv.ms/p/s!Agp_UlKVcoB4djRtv1m9qcrsqeQ?e=ycItZM";
+		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQP0o5gHxhPrS0UA?e=rvlRmc";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/Keller2020-2-";
 		$this->logo = "./image/logo/icons8-Keller2020-100.png";
