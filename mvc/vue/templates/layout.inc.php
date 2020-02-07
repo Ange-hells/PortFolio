@@ -18,9 +18,9 @@
 	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
 	<link rel='stylesheet' type='text/css' href='./css/tab.css' />
+	<link rel='stylesheet' type='text/css' href='./css/page.css' />
+	<!-- 	<link rel='stylesheet' href='./css/onglet.css' /> -->	
 	<!-- <link rel='stylesheet' type='text/css' href='./css/onglet.css' /> -->
-	<link rel='stylesheet' type='text/css' href='./css/projet.css' />
-	<!-- 	<link rel='stylesheet' href='./css/onglet.css' /> -->
 
 	<script type='text/javascript' src='./librairie/jquery/js/jquery1.7.2.js'></script>
 	<script type="text/javascript" src='./librairie/jquery/js/jquery-1.2.6.min.js'></script>
