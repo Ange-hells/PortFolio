@@ -34,11 +34,11 @@
                                 // var_dump($uneFiche)
                     ?>
                     <tr class="ligne">
-                        <td class="Titre"><?php echo ($uneFiche->Disponible==0) ? '' : "<a href='./index.php?module=projet&amp;page=$uneFiche->TitreFiche'>";  echo $uneFiche->TitreFiche; "</a>"?></td>
-                        <td class="Type"><?php echo $uneFiche->TypeFiche; ?></td>
-                        <td class="Dispo"><?php echo ($uneFiche->Disponible==1) ? '&#x2713;': '&#x2717;'; ?></td>
-                        <td class="nbCompetence"><?php echo $uneFiche->nbCompetence; ?></td>
-                        <td class="S.Obligatoire"><?php echo ($uneFiche->LibelleSituation=="") ? '/':$uneFiche->LibelleSituation; ?></td>
+                        <td class="Code"><?php echo $uneCompetence->codeCompetence; "</a>"?></td>
+                        <td class="Libeller"><?php echo $uneCompetence->libelleCompetence; ?></td>
+                        <td class="Presence"><?php echo $uneCompetence->Disponible; ?></td>
+                        <!-- <td class="nbCompetence">?php echo $uneCompetence->nbCompetence; ?></td>
+                        <td class="S.Obligatoire">?php echo ($uneCompetence->LibelleSituation=="") ? '/':$uneFiche->LibelleSituation; ?></td> -->
                     </tr>
                     <?php }} ?>
                 </tbody>
