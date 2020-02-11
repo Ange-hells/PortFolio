@@ -11,18 +11,18 @@
             <img src='./image/feuille.bmp' alt='' />
         </div>
         <div id='center-block'>
-            <h1>Liste des fiche de competence</h1>
+            <h1>Liste des fiches de competence</h1>
             <table id="tab">	  
                 <thead>
                     <tr>
                         <!-- <th class="totab"> </th> -->
-                        <th class="totab" colspan=5>Liste des <?php echo $nbFiches; ?> Fiche de competence disponible</th>
+                        <th class="totab" colspan=5>Liste des <?php echo $nbFiches; ?> Fiches de competence disponible</th>
                     </tr>
                     <tr>
                         <th class="totab">Titre Fiche</th>
                         <th class="totab">Type Fiche&nbsp;&nbsp;</th>
                         <th class="totab">Disponible&nbsp;</th>
-                        <th class="totab">Nombre de competence&nbsp;</th>
+                        <th class="totab">Nombre de competences&nbsp;</th>
                         <th class="totab">Situation obligatoire&nbsp;</th>
                     </tr>
                 </thead>
