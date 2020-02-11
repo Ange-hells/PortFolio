@@ -18,7 +18,7 @@ class controleurFicheAccueil extends controleur {
     private $modele;
     
     public function __construct(){
-        require ("./mvc/modele/fiche/Accueil.inc.php");
+        require ("./mvc/modele/fiche/accueil.inc.php");
         $this->modele = new modeleFicheAccueil();
     }
 	
