@@ -12,7 +12,7 @@
                 <?php
                     echo "&nbsp<a href='$pptx' >Presentation pptx</a></br>";
                     echo "&nbsp<a href='$docx' >fiche docx</a></br>";
-                    echo "&nbsp<a href='$site' >CinePation38</a></br>";
+                    echo "&nbsp<a href='$site' >CinePassion38</a></br>";
                     echo "&nbsp<a href='$git'  >gitHub</a>";
                 ?>
             </nav>
