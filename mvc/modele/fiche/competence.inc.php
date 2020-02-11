@@ -14,7 +14,7 @@ class modeleFicheCompetence extends modele{
         return $nbcompetence->nbCompetence;
     }
         
-    public static function getListCompetence(){
+    public function getListCompetence(){
         $collection = new collection();
         $sql = "SELECT codeCompetence, libelleCompetence
                 FROM competence;";
