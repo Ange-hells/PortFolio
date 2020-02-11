@@ -102,7 +102,15 @@ VALUES  (`Exel - Cas STEMA`,2,0,1,`ExelStema`),
         (`Polymorphisme`,2,0,5,`Polymorphisme`),
         (`RAID`,2,0,5,`RAID`),
         (`Sauvegarde`,2,0,5,`Sauvegarde`),
-        (`Docker`,2,0,5,`Docker`)
+        (`Docker`,2,0,5,`Docker`),
+        (`Gestion Contact`,2,0,5,`GestionContact`),
+        (`Genesys`,1,1,5,``),
+        (`Evsion`,1,1,5,`Evsion`),
+        (`Wi-Fi_Password`,2,0,5,`wifiPassword`),
+        (``,,,,``),
+        (``,,,,``),
+        (``,,,,``)
+
 ;
 
 INSERT Into typefiche 
