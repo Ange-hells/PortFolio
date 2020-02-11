@@ -60,7 +60,7 @@ class controleurProjetGenesys extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4fnk__3BtQ824GFw?e=VWiY9E";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/PHP-FRamwork-Genesis";
-		$this->logo = "./image/logo/icons8-Genesys-100.png";
+		$this->logo = "./image/logo/Genesys-100.png";
         
 		parent::genererVue();
 	}

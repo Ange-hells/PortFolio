@@ -60,7 +60,7 @@ class controleurProjetKeller2020 extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQP0o5gHxhPrS0UA?e=rvlRmc";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/Keller2020-2-";
-		$this->logo = "./image/logo/icons8-Keller2020-100.png";
+		$this->logo = "./image/logo/Keller2020-100.png";
         
 		parent::genererVue();
 	}

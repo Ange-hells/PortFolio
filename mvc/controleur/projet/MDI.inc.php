@@ -60,7 +60,7 @@ class controleurProjetMDI extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4fVDoXtOzVEsgqQg?e=Qfxarg";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/MDI";
-		$this->logo = "./image/logo/icons8_Application_Window.png";
+		$this->logo = "./image/logo/MDI-100.png";
         
 		parent::genererVue();
 	}

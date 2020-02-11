@@ -60,7 +60,7 @@ class controleurProjetEvasion extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQDFvx3K-oP3U3zM?e=FP2ED7";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/CinePassion38";
-		$this->logo = "./image/logo/icons8-europe-100.png";
+		$this->logo = "./image/logo/Evasion-100.png";
         
 		parent::genererVue();
 	}

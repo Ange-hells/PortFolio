@@ -60,7 +60,7 @@ class controleurProjetAgenda extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4gQUu03a5ZRobq7zQ?e=UDWphE";
 		$this->site = "./index.php?module=page&amp;page=Agneda";
 		$this->git = "https://github.com/Ange-hells/Agenda";
-		$this->logo = "./image/logo/icons8-Agenda-100.png";
+		$this->logo = "./image/logo/Agenda-100.png";
         
 		parent::genererVue();
 	}

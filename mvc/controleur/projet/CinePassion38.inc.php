@@ -61,7 +61,7 @@ class controleurProjetCinePassion38 extends controleur {
 		$this->docx = "https://1drv.ms/w/s!Agp_UlKVcoB4f7--7_6HbkhZZ5c?e=AfJ1uX";
 		$this->site = "./index.php?module=page&amp;page=CinePassion38";
 		$this->git = "https://github.com/Ange-hells/CinePassion38";
-		$this->logo = "./image/logo/icons8-film-100 (1).png";
+		$this->logo = "./image/logo/Cp38-100.png";
         
 		parent::genererVue();
 	}
