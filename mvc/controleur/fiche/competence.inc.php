@@ -64,7 +64,7 @@ class controleurFicheCompetence extends controleur {
 	 */
 	public function defaut() {
         $this->ListCompetence = $this->modele->getListCompetence();
-       
+        // $this->nbCompetences = count($this->ListCompetence);
 
 		parent::genererVue();
 	}
