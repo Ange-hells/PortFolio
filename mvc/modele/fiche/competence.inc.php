@@ -6,18 +6,21 @@ class modeleFicheCompetence extends modele{
      * @param string $titreFilm : le titre du film
      * @return integer : le numéro du film
      */
-    public function getNbrCompetence() {
-        $sql = "SELECT count(codeCoumpetence)
-                FROM competence;";
-        $pdoStat = $this->executerRequete($sql);
-        $nbcompetence = $pdoStat->fetchObject();
-        return $nbcompetence->nbCompetence;
-    }
+    // public function getNbrCompetence() {
+    //     $sql = "SELECT count(codeCoumpetence)
+    //             FROM competence;";
+    //     $pdoStat = $this->executerRequete($sql);
+    //     $nbcompetence = $pdoStat->fetchObject();
+    //     return $nbcompetence->nbCompetence;
+    // }
         
     public function getListCompetence(){
         $collection = new collection();
-        $sql = "SELECT codeCompetence, libelleCompetence
-                FROM competence;";
+        $sql = "SELECT c.codeCompetence, libelleCompetence, count(numSituation) as present
+                FROM competence c
+                inner join competencesituation
+                    on competencesituation.CodeCompetence = c.CodeCompetence
+                group by c.codeCompetence;";
 
         $pdoStat = $this->executerRequete($sql);
         while(($uneCompetence = $pdoStat->fetchObject()) !== false){
