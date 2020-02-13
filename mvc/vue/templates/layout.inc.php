@@ -71,17 +71,11 @@
 		});
 	</script>
 	
-	<div id='llm'>
-		<a onclick='window.open(this.href); return false;' href='http://www.ac-grenoble.fr/lycee/louise.michel'>
-			<img alt='' src='./image/partenaire/logoLLM.jpg'/>
-		</a>
-	</div>
-	
 	<div id='lien'>
 		<a>
 			<img alt='Nathan.THOMASSET' src='./image/partenaire/Sio-slam.ico' /> &nbsp; Nathan.THOMASSET
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='http://www.SIO-SLAM.fr'>
+		<a onclick='window.open(this.href); return false;' href='https://sio-slam.000webhostapp.com'>
 			<img alt='SIO-SLAM' src='./image/partenaire/logoSioSlam.png' />
 		</a>&nbsp;&nbsp;
 	</div>
