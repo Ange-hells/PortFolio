@@ -29,8 +29,7 @@
 	<script type='text/javascript' src='./librairie/JsEncrypt/jsencrypt-master/bin/jsencrypt.js'></script>
 	<script type='text/javascript' src='./librairie/GenesisJS/js/GenesisJs-0.1.js'></script>
 
-
-	<?php 
+	<?php
 		if (isset($texteDefilant)) {
 			echo "<link rel='stylesheet' type='text/css' href='./librairie/liscroll/css/liscroll1.0.css' />
 				  <script type='text/javascript' src='./librairie/liscroll/js/liscroll1.0.js'></script>" . PHP_EOL;
