@@ -51,25 +51,31 @@
 			<li id='accueil'><a href='./index.php?module=home&amp;page=accueil'>&nbsp;</a></li>
 			<li class='plus'>Fiche de competence
 				<ul class='nv2'>
-					<li><a href='./index.php?module=fiche&amp;page=accueil'><img src="https://img.icons8.com/metro/16/000000/purchase-order.png"> Liste des fiches <img src="https://img.icons8.com/metro/16/000000/purchase-order.png"></a></li>
-					<li><a href='./index.php?module=fiche&amp;page=partenaire'>nos partenaires</a></li>
-					<li><a href='./index.php?module=fiche&amp;page=plan'>plan</a></li>
+					<li><a href='./index.php?module=fiche&amp;page=accueil'><img src="./image/logo/liste-16.png"> Liste des fiches <img src="./image/logo/liste-16.png"></a></li>
+					<li><a href='./index.php?module=fiche&amp;page=competence'><img src="./image/logo/competences-16.png">Competences<img src="./image/logo/competences-16.png"></a></li>
+					<!-- <li><a href='./index.php?module=fiche&amp;page=plan'>plan</a></li> -->
 				</ul>
 			</li>
 			<li class='plus'>Projet
 				<ul class='nv2'>
-					<li><a href='./index.php?module=projet&amp;page=cinepassion38'><img src='https://img.icons8.com/ios/16/000000/movie.png'> CinePassion38  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
-					<li><a href='./index.php?module=projet&amp;page=keller2020'><img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"> Keller2020 <img src="https://img.icons8.com/pastel-glyph/16/000000/checklist.png"></a></li>
-					<li><a href='./index.php?module=projet&amp;page=agenda'><img src="https://img.icons8.com/small/16/000000/address-book.png"> Agenda <img src="https://img.icons8.com/small/16/000000/address-book.png"></a></li>
-					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='https://img.icons8.com/ios/16/000000/movie.png'> MDI  <img src='https://img.icons8.com/ios/16/000000/movie.png'></a></li>
-					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="https://img.icons8.com/small/16/000000/php.png"> Genesys <img src="https://img.icons8.com/small/16/000000/php.png"></a></li>
-					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="https://img.icons8.com/android/16/000000/globe.png"> Evasion <img src="https://img.icons8.com/android/16/000000/globe.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=cinepassion38'><img src='./image/logo/Cp38-16.png'> CinePassion38  <img src='./image/logo/Cp38-16.png'></a></li>
+					<li><a href='./index.php?module=projet&amp;page=keller2020'><img src="./image/logo/Keller2020-16.png"> Keller2020 <img src="./image/logo/Keller2020-16.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=agenda'><img src="./image/logo/Agenda-16.png"> Agenda <img src="./image/logo/Agenda-16.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=mdi'><img src='./image/logo/mdi-16.png'> MDI  <img src='./image/logo/mdi-16.png'></a></li>
+					<li><a href='./index.php?module=projet&amp;page=genesys'><img src="./image/logo/Genesys-16.png"> Genesys <img src="./image/logo/Genesys-16.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=evasion'><img src="./image/logo/Evasion-16.png"> Evasion <img src="./image/logo/Evasion-16.png"></a></li>
+					<li><a href='./index.php?module=projet&amp;page=owa'><img src="./image/logo/Owa-16.png"> Owa <img src="./image/logo/Owa-16.png"></a></li>
 				</ul>
 			</li>
 			<li class='plus'>Veilles
 				<ul class='nv2'>
-					<li><a href='./index.php?module=veilles&amp;page=juridique'><img src="https://img.icons8.com/cotton/16/000000/courthouse.png"> Juridique <img src="https://img.icons8.com/cotton/16/000000/courthouse.png"></a></li>
-					<li><a href='./index.php?module=veilles&amp;page=technologique'><img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"> Technologique <img src="https://img.icons8.com/wired/16/000000/heart-with-mouse.png"></a></li>
+					<li><a href='./index.php?module=veilles&amp;page=juridique'><img src="./image/logo/justice-16.png"> Juridique <img src="./image/logo/justice-16.png"></a></li>
+					<li><a href='./index.php?module=veilles&amp;page=technologique'><img src="./image/logo/coeursouris-16.png"> Technologique <img src="./image/logo/coeursouris-16.png"></a></li>
+				</ul>
+			</li>
+			<li class='plus'>Contact
+				<ul class='nv2'>
+					<li><a href='./index.php?module=contact&amp;page=Contact'><img src="./image/logo/contact-16.png"> Contact <img src="./image/logo/contact-16.png"></a></li>
 				</ul>
 			</li>
 		</ul>
