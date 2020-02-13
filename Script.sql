@@ -1,6 +1,13 @@
-CREATE DATABASE `portfolio`;
+-- CREATE DATABASE portfolio;
 
-USE `portfolio`;
+-- for sql (wamp)
+-- USE 'portfolio';
+
+-- for phpmyadmin (000webhost)
+USE 'id8325269_portfolio';
+
+-- for phpmyadmin (1&1 ionos)
+-- USE 'dbs290332';
 
 CREATE TABLE `situation` (
 	`NumSituation` TINYINT(4) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -32,7 +39,7 @@ CREATE TABLE `typefiche` (
 );
 
 CREATE TABLE `situationobligatoire` (
-	`IdSituation` INT(11) NULL DEFAULT NULL AUTO_INCREMENT,
+	`IdSituation` INT(11) NOT NULL AUTO_INCREMENT,
 	`LibelleSituation` VARCHAR(160) NULL DEFAULT NULL,
     PRIMARY KEY (`IdSituation`)
 );
@@ -60,7 +67,7 @@ VALUES  (`A1.1.1`, `Analyse du cahier des charges d'un service à produire`),
         (`A2.2.3`, `Réponse à une interruption de service`),
         (`A2.3.1`, `Identification, qualification et évaluation d'un problème`),
         (`A2.3.2`, `Proposition d'amélioration d'un service`),
-        (`A3.2.1`, `Installation et configuration d'éléments d'infrastructure`,
+        (`A3.2.1`, `Installation et configuration d'éléments d'infrastructure`),
         (`A3.2.2`, `Remplacement ou mise à jour d'éléments défectueux ou obsolètes`),
         (`A4.1.1`, `Proposition d'une solution applicative`),
         (`A4.1.2`, `Conception ou adaptation de l'interface utilisateur d'une solution applicative`),
@@ -89,42 +96,38 @@ VALUES  (`A1.1.1`, `Analyse du cahier des charges d'un service à produire`),
 ;
 
 INSERT INTO situation (LibelleSituation,TypeFiche,Disponible,SituationObligatoire,NomLien)
-VALUES  (`Exel - Cas STEMA`,2,0,1,`ExelStema`),
-        (`Windows Form - jeux de carte`,2,0,4,`Memorie`),
-        (`MDI`,1,1,5,`MDI`),
-        (`Site Web 1er Année ( Stema )`,2,0,1,`Stema`),
-        (`Site web 2em Année (CinéPassion38 - lot1)`,2,0,1,`Cp38Lot1`),
-        (`Site web 2em Année (CinéPassion38 - lot2)`,2,0,1,`Cp38Lot2`),
-        (`CinePassion38`,1,1,5,`CinePassion38`),
-        (`Windows Phone (Agenda)`,2,0,4,`Agenda`),
-        (`Service Web`,2,0,4,`ServiceWeb`),
-        (`Keller2020`,1,1,5,`Keller2020`),
-        (`Polymorphisme`,2,0,5,`Polymorphisme`),
-        (`RAID`,2,0,5,`RAID`),
-        (`Sauvegarde`,2,0,5,`Sauvegarde`),
-        (`Docker`,2,0,5,`Docker`),
-        (`Gestion Contact`,2,0,5,`GestionContact`),
-        (`Genesys`,1,1,5,``),
-        (`Evsion`,1,1,5,`Evsion`),
-        (`Wi-Fi_Password`,2,0,5,`wifiPassword`),
-        (``,,,,``),
-        (``,,,,``),
-        (``,,,,``)
-
+VALUES  ('Exel - Cas STEMA',2,0,1,'ExelStema'),
+        ('Windows Form - jeux de carte',2,0,4,'Memorie'),
+        ('MDI',1,1,5,'MDI'),
+        ('Site Web 1er Année ( Stema )',2,0,1,'Stema'),
+        ('Site web 2em Année (CinéPassion38 - lot1)',2,0,1,'Cp38Lot1'),
+        ('Site web 2em Année (CinéPassion38 - lot2)',2,0,1,'Cp38Lot2'),
+        ('CinePassion38',1,1,5,'CinePassion38'),
+        ('Windows Phone (Agenda)',2,0,4,'Agenda'),
+        ('Service Web',2,0,4,'ServiceWeb'),
+        ('Keller2020',1,1,5,'Keller2020'),
+        ('Polymorphisme',2,0,5,'Polymorphisme'),
+        ('RAID',2,0,5,'RAID'),
+        ('Sauvegarde',2,0,5,'Sauvegarde'),
+        ('Docker',2,0,5,'Docker'),
+        ('Gestion Contact',2,0,5,'GestionContact'),
+        ('Genesys',1,1,5,'Genesys'),
+        ('Evsion',1,1,5,'Evsion'),
+        ('Wi-Fi_Password',2,0,5,'wifiPassword')
 ;
 
 INSERT Into typefiche 
-VALUES  (1,`Projet`),
-        (2,`Fiche`),
-        (3,`Competence`)
+VALUES  (1,'Projet'),
+        (2,'Fiche'),
+        (3,'Competence')
 ;
 
 INSERT Into situationobligatoire 
-VALUES  (1,`Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)`),
-        (2,`Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat `),
-        (3,`Elaboration de documents relatifs à la production et à la fourniture de services`),
-        (4,`Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode`),
-        (5,``)
+VALUES  (1,'Participation à un projet d’évolution d’un SI (solution applicative et d’infrastructure portant prioritairement sur le domaine de spécialité du candidat)'),
+        (2,'Prise en charge d’incidents et de demandes d’assistance liés au domaine de spécialité du candidat '),
+        (3,'Elaboration de documents relatifs à la production et à la fourniture de services'),
+        (4,'Productions relatives à la mise en place d’un dispositif de veille technologique et à l’étude d’une technologie, d’un composant, d’un outil ou d’une méthode'),
+        (5,'')
 ;
 
 INSERT INTO competencesituation (CodeCompetence,NumSituation)
