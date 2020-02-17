@@ -1,17 +1,18 @@
+//<!--
 function fValidationSaisie(pCodeAscii) {
-  if (pCodeAscii >= 65 && pCodeAscii <= 90) { // lettre en majuscule
-     return true;
-  }else if (pCodeAscii >= 97 && pCodeAscii <= 122) { // lettre en minuscule
-     return true;
-  }else if (pCodeAscii >= 48 && pCodeAscii <= 57) { // chiffre
-     return true;
-  }else if (pCodeAscii == 45 || pCodeAscii == 46 || pCodeAscii == 95) { // caractère - . ou _ 
-     return true;
-  }else {
-     window.document.getElementById("error").innerHTML="Le caractère saisi n'est pas valide";
-     window.setTimeout("window.document.getElementById('error').innerHTML='';",700);
-     return false;
-  }
+    if (pCodeAscii >= 65 && pCodeAscii <= 90) { // lettre en majuscule
+        return true;
+    }else if (pCodeAscii >= 97 && pCodeAscii <= 122) { // lettre en minuscule
+        return true;
+    }else if (pCodeAscii >= 48 && pCodeAscii <= 57) { // chiffre
+        return true;
+    }else if (pCodeAscii == 45 || pCodeAscii == 46 || pCodeAscii == 95) { // caractère - . ou _ 
+        return true;
+    }else {
+        window.document.getElementById("error").innerHTML="Le caractère saisi n'est pas valide";
+        window.setTimeout("window.document.getElementById('error').innerHTML='';",700);
+        return false;
+    }
 } 
 
 function Verif(pForm) {
@@ -50,3 +51,16 @@ jse.setPrivateKey("MGMCAQACEQDUEldEH3h7oYz3vYD0UnhNAgMBAAECECTcNzzI94kNPy18A5HMf
 var test2 = jse.decrypt(test);
 console.log(" ----- ");
 console.log(test2);
+
+
+function change_onglet(name)
+{
+        document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+        document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+        document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+        document.getElementById('contenu_onglet_'+name).style.display = 'block';
+        anc_onglet = name;
+        var anc_onglet = 'quoi';
+                change_onglet(anc_onglet);
+}
+//-->
