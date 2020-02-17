@@ -3,22 +3,26 @@
 
 
 {
+    "background.customImages": ["D:/Users/perso/Pictures/Font d'écrant/Oceane2.5.png"],
+    "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.4.0\\php.exe",
+    "editor.renderControlCharacters": true,
+    
     "files.autoSave": "afterDelay",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.cursorBlinking": "expand",
     "git.autofetch": true,
     "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
+    
+    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#42a5f5",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.hidesExplorerArrows": false,
 
     "material-icon-theme.files.associations": {
         // "*.ts": "typescript",
         // "fileName.ts": "angular",
-        "index.php": "php_elephant",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "index.php": "php_elephant"
+        // "": "",
 
     },
 
@@ -31,22 +35,21 @@
         "texte": "docs",
         "librairie": "lib",
         "sql": "database",
-        "sgbd": "database",
-        "": "",
-        "": ""
+        "sgbd": "database"
+        // "": ""
 
     },
    
     "material-icon-theme.languages.associations": {
-        "languageId": "iconName",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
-
+        "languageId": "iconName"
+        // "": ""
     },
+
+    "sql-formatter.uppercase": true,
+    "sqltools.completionLanguages": [
+        "sql"
+    ],
+
     
-    "background.customImages": ["D:/Users/perso/Pictures/Font d'écrant/Oceane2.5.png"]
+    
 }
