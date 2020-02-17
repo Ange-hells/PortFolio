@@ -182,12 +182,13 @@
 		<div class='blocGauche'>
 			Projet
 			<ul>
-				<li><a href='./index.php?module=projet&amp;page=cinepassion38'> CinePassion38</a></li>
-				<li><a href='./index.php?module=projet&amp;page=keller2020'> Keller2020</a></li>
-				<li><a href='./index.php?module=projet&amp;page=agenda'> Agenda</a></li>
-				<li><a href='./index.php?module=projet&amp;page=mdi'> MDI</a></li>
-				<li><a href='./index.php?module=projet&amp;page=genesys'> Genesys</a></li>
-				<li><a href='./index.php?module=projet&amp;page=evasion'> Evasion</a></li>
+				<li><a href='./index.php?module=projet&amp;page=cinepassion38'>CinePassion38</a></li>
+				<li><a href='./index.php?module=projet&amp;page=keller2020'>Keller2020</a></li>
+				<li><a href='./index.php?module=projet&amp;page=agenda'>Agenda</a></li>
+				<li><a href='./index.php?module=projet&amp;page=mdi'>MDI</a></li>
+				<li><a href='./index.php?module=projet&amp;page=genesys'>Genesys</a></li>
+				<li><a href='./index.php?module=projet&amp;page=evasion'>Evasion</a></li>
+				<li><a href='./index.php?module=projet&amp;page=mdi'>Owa</a></li>
 			</ul>	
 		</div>
 		<div class='blocDroite'>
