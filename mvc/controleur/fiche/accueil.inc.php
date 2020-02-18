@@ -1,17 +1,17 @@
 <?php
 /*======= C O N T R O L E U R ====================================================================================
-	fichier				: ./mvc/controleur/projet/Agenda.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	fichier				: ./mvc/controleur/fiche/accueil.inc.php
+	auteur				: Nathan Thomsset (nathan.thomasset2@gmail.com)
+	date de création	: janvier 2020
 	date de modification:
-	rôle				: le contrôleur de la page du projet agenda
+	rôle				: le contrôleur de la page d'accueil des fiches
   ================================================================================================================*/
 
 /**
  * Classe contrôleur de la page accueil du domaine cinepassion38
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - janvier 2020
  */
 class controleurFicheAccueil extends controleur {
 
@@ -26,9 +26,9 @@ class controleurFicheAccueil extends controleur {
 	 * Met à jour le tableau $donnees de la classe mère avec les informations spécifiques de la page
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - janvier 2020
 	 */
 	public function setDonnees() {
 		// ===============================================================================================================
@@ -58,9 +58,9 @@ class controleurFicheAccueil extends controleur {
 	 * Génère l'affichage de la vue pour l'action par défaut de la page 
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - Juin 2017
+	 * @copyright Sio-Slam - janvier 2020
 	 */
 	public function defaut() {
         $this->nbFiches = $this->modele->getNbrFiches();

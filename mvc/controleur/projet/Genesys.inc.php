@@ -1,17 +1,17 @@
 <?php
 /*======= C O N T R O L E U R ====================================================================================
 	fichier				: ./mvc/controleur/projet/Genesys.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Nathan Thomsset (nathan.thomasset2@gmail.com)
+	date de création	: fevrier 2020
 	date de modification:
-	rôle				: le contrôleur de la page du projet agenda
+	rôle				: le contrôleur de la page du projet genesys
   ================================================================================================================*/
 
 /**
  * Classe contrôleur de la page accueil du domaine cinepassion38
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - fevrier 2020
  */
 class controleurProjetGenesys extends controleur {
 	
@@ -19,9 +19,9 @@ class controleurProjetGenesys extends controleur {
 	 * Met à jour le tableau $donnees de la classe mère avec les informations spécifiques de la page
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - fevrier 2020
 	 */
 	public function setDonnees() {
 		// ===============================================================================================================
@@ -51,9 +51,9 @@ class controleurProjetGenesys extends controleur {
 	 * Génère l'affichage de la vue pour l'action par défaut de la page 
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - Juin 2017
+	 * @copyright Sio-Slam - fevrier 2020
 	 */
 	public function defaut() {
 		$this->pptx = "https://1drv.ms/p/s!Agp_UlKVcoB4d847bc7JsE2SjEM?e=sBxvBP";

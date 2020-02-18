@@ -1,17 +1,17 @@
 <?php
 /*======= C O N T R O L E U R ====================================================================================
 	fichier				: ./mvc/controleur/home/accueil.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Nathan Thomsset (nathan.thomasset2@gmail.com)
+	date de création	: janvier 2020
 	date de modification:
 	rôle				: le contrôleur de la page d'accueil du site
   ================================================================================================================*/
 
 /**
  * Classe relative au contrôleur de la page d'accueil du site
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - janvier 2020
  */
 class controleurHomeAccueil extends controleur {
 		
@@ -19,9 +19,9 @@ class controleurHomeAccueil extends controleur {
 	 * Met à jour le tableau $donnees de la classe mère avec les informations spécifiques de la page
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - janvier 2020
 	 */
 	public function setDonnees() {
 		// ===============================================================================================================
@@ -62,9 +62,9 @@ class controleurHomeAccueil extends controleur {
 	 * @param null
 	 * @return array : un tableau composé des images et des textes utiles pour la génération de la galerie slidesjs
 	 * @throws
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - janvier 2020
 	 */
 	private function getGalerie() {
 		$dossier = "./image/pageAccueil";
@@ -89,9 +89,9 @@ class controleurHomeAccueil extends controleur {
 	 * Génère l'affichage de la vue pour l'action par défaut de la page 
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - Juin 2017
+	 * @copyright Sio-Slam - fevrier 2020
 	 */
 	public function defaut() {
 		parent::genererVue();
