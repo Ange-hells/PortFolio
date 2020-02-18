@@ -1,9 +1,10 @@
 <?php
 /*================================================================================================================
- fichier			: class.collection.inc.php
- auteur				: 
- date de création	: mai 2013
- rôle				: décrit la classe collection qui permet de gérer une collection d'éléments
+	fichier			: class.collection.inc.php
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
+	date de modification: 
+	rôle				: décrit la classe collection qui permet de gérer une collection d'éléments
  ================================================================================================================*/
 
 class navigation {
@@ -20,9 +21,9 @@ class navigation {
      * @param 'Booleen' $tailleFixe : true si la taille est fixe, false sinon (false est la valeur par défaut)
      * @param integer $tailleMax : le nombre maximum d'éléments qui sont gérés par la collection (valeur par défaut : 50)
      * @return null
-     * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+     * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
      * @version 1.0
-     * @copyright Christophe Goidin - mai 2013
+     * @copyright Christophe Goidin - decembre 2019
      */
     public function __construct($module, $page, $action, $section, $nbSections) {
        

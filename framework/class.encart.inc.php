@@ -1,17 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.encart.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: mai 2013
-	date de modification: juin 2017	-> respect de la numérotation "lower camel case" 
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
+	date de modification: 
 	rôle				: décrit la classe encart qui permet de gérer les encarts d'une page web
   ================================================================================================================*/
 
 /**
  * La classe encart permet de gérer les encarts du site
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - mai 2013
+ * @copyright Christophe Goidin - decembre 2019
  */
 class encart {
 	
@@ -22,9 +22,9 @@ class encart {
 	 * Le constructeur permet d'hydrater tous les attributs de la classe encart en appelant les setteurs appropriés
 	 * @param string $fichier : l'adresse du fichier texte concenant les informations de l'encart
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - Juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */	
 	public function __construct($fichier) {
 		$this->setEncart($fichier);
@@ -34,9 +34,9 @@ class encart {
 	 * Renvoie le titre de l'encart
 	 * @param null 
 	 * @return string : le titre de l'encart 
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	private function getTitre() {
 		return $this->titre;
@@ -46,9 +46,9 @@ class encart {
 	 * Renvoie le contenu de l'encart
 	 * @param null 
 	 * @return string : le contenu de l'encart 
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	private function getContenu() {
 		return $this->contenu;
@@ -58,9 +58,9 @@ class encart {
 	 * Positionne le titre de l'encart
 	 * @param string $titre : le titre de l'encart
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	private function setTitre($titre) {
 		$this->titre = $titre;
@@ -70,9 +70,9 @@ class encart {
 	 * Positionne le contenu de l'encart
 	 * @param string $contenu : le contenu de l'encart
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	private function setContenu($contenu) {
 		$this->contenu = $contenu;
@@ -92,9 +92,9 @@ class encart {
 	 * @param string $fichier : l'adresse du fichier texte à analyser
 	 * @return null
 	 * @throws l'exception est lancée si le fichier texte est introuvable
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	private function setEncart($fichier) {
 		if (($refFichier = fopen($fichier, "r")) !== False) {
@@ -155,9 +155,9 @@ class encart {
 	 * Renvoie le bloc xhtml relatif à l'encart
 	 * @param null
 	 * @return string : le bloc xhtml relatif à l'encart 
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	public function getXhtml() {
 		return "<div class='unEncart'>\n
@@ -172,7 +172,7 @@ class encart {
 	 * @return string : le bloc xhtml relatif à l'encart 
 	 * @author : Christophe Goidin <christophe.goidin@ac-grenoble.fr>
 	 * @version : 1.0
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	public function __toString() {
 		return $this->getXhtmlEncart();

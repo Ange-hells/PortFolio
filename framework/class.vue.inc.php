@@ -1,17 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.vue.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
 	date de modification:  
 	rôle				: classe regroupant les services communs à toutes les vues.
   ================================================================================================================*/
 
 /**
  * Classe regroupant les services communs à TOUTES les vues
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 class vue {
 	
@@ -22,9 +22,9 @@ class vue {
 	 * @param string $module : la valeur du paramètre module
 	 * @param string $page : la valeur du paramètre page
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public function __construct($module, $page = "") {
 		if ($module == "erreur") {
@@ -38,9 +38,9 @@ class vue {
 	 * Génère et affiche la vue
 	 * @param array $donnees : les informations à afficher
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public function generer($donnees) {
 		// ===============================================================================================================
@@ -84,9 +84,9 @@ class vue {
 	 * @param array $donnees : les informations nécessaires à la vue afin de générer le contenu 
 	 * @param string $id : le nom de l'id dont on veut récupérer le contenu du bloc <div>. null par défaut -> on récupère alors l'intégralité du contenu du fichier
 	 * @return string : le code xhtml relatif à la vue
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private function genererFichier($fichier, $donnees, $id = null) {
 		if (file_exists($fichier)) {
@@ -113,9 +113,9 @@ class vue {
 	 * Nettoie la chaîne de caractères passée en paramètre
 	 * @param string $chaine : la chaîne de caractères à nettoyer
 	 * @return string : la chaîne de caractères nettoyée
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 * @deprecated
 	 */
 	private function nettoyerOLD($chaine) {

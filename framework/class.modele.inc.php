@@ -1,17 +1,17 @@
 <?php
 /*=========== M O D E L E ========================================================================================
 	fichier				: class.modele.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juillet 2012
-	date de modification: juin 2017 : refactoring MVC objet 
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
+	date de modification: 
 	rôle				: la classe générique d'accès aux données. Joue le rôle du modèle dans l'architecture MVC.
   ================================================================================================================*/
 
 /**
  * Classe d'accès aux données utilisant l'API PDO (Php Data Object) et implémentant le design pattern Singleton
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 2.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 abstract class modele {
 	
@@ -21,9 +21,9 @@ abstract class modele {
 	 * Renvoie l'instance de connexion à la base de données, en initialisant la connexion si nécessaire. Mise en oeuvre du patron de conception Singleton
 	 * @param null
 	 * @return L'instance de la connexion à la base de données
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 2.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private static function getBd() {
 		if (self::$bd === null) {
@@ -48,9 +48,9 @@ abstract class modele {
 	 * @param string $sql : la requête SQL à exécuter
 	 * @param array $params : un tableau associatif contenant les valeurs des marqueurs (les marqueurs peuvent être nommés ou interrogatifs)
 	 * @return PDOStatement : le résultat de l'exécution de la requête SQL sous forme d'un objet PDOStatement
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 2.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	protected function executerRequete($sql, $params = null) {
 		if ($params == null) {

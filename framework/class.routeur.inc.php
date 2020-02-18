@@ -1,17 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.routeur.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
 	date de modification:  
 	rôle				: la classe routeur permet d'aiguiller/router automatiquement vers le contrôleur et l'action à réaliser 
   ================================================================================================================*/
 
 /**
  * Classe permettant d'aiguiller/router automatiquement vers le contrôleur et l'action à réaliser
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 class routeur {
 
@@ -19,9 +19,9 @@ class routeur {
 	 * Route une requête entrante et exécute l'action associée
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public function routerRequete() {
 		try {
@@ -37,9 +37,9 @@ class routeur {
 	 * Créé le contrôleur approprié en fonction de la requête HTTP reçue
 	 * @param Requete HTTP $requete : la requête HTTP
 	 * @return 'Le' contrôleur créé
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private function creerControleur(requete $requete) {
 		// ===============================================================================================================
@@ -120,9 +120,9 @@ class routeur {
 	 * Reformate une chaîne de caractères en minuscule avec la première lettre en majuscule
 	 * @param string $chaine : La chaîne à reformater
 	 * @return string : La chaîne reformatée en minuscule avec la première lettre en majuscule
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */ 
 	private function reformater($chaine) {
 		return ucfirst(strtolower($chaine));
@@ -132,9 +132,9 @@ class routeur {
 	 * Gère les erreurs d'exécution en générant la vue "erreur"
 	 * @param Exception $e : l'exception qui a été attrapé
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */ 
 	private function gererErreur(Exception $e) {
 		$vue = new vue("erreur");

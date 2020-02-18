@@ -1,17 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.fs.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
 	date de modification:  
 	rôle				: la classe fs gère toutes les fonctionnalités relatives aux fichiers
   ================================================================================================================*/
 
 /**
  * La classe fs gère toutes les fonctionnalités relatives aux fichiers
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - Juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 
 class fs {
@@ -21,9 +21,9 @@ class fs {
 	 * @param string $id : l'identifiant du bloc <div> dont on veut récupérer le contenu
 	 * @return string : le contenu du bloc <div id='$id'> du fichier $fichier. Renvoie une chaîne vide si l'id $id n'est pas trouvé
 	 * @throws l'exception est levée si on arrive pas à lire le contenu du fichier
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public static function getContenuFichier($fichier, $id) {
 		try {

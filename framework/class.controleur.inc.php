@@ -1,19 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.controleur.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
-	date de modification: septembre 2017 	: traitement URL
-											: modification des paramètres getNavigation
-											: récupération d'un encart aléatoire
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
+	date de modification: 
 	rôle				: classe regroupant les services communs à TOUS les contrôleurs.
   ================================================================================================================*/
 
 /**
  * Classe générique définissant les services communs à TOUS les contrôleurs
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 abstract class controleur {
 
@@ -31,9 +29,9 @@ abstract class controleur {
 	 * @param string $page : la page du module
 	 * @param string $action : l'action à réaliser sur la page
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	
 	
@@ -49,9 +47,9 @@ abstract class controleur {
 	 * Met à jour le tableau $donnees avec les données communes à TOUTES les pages du site web
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	protected function setDonnees() {
 		// ===============================================================================================================
@@ -119,9 +117,9 @@ abstract class controleur {
 	 * @param string $propriete : le nom de la propriété dont on veut tester l'existence
 	 * @param string $type : "total" (valeur par défaut) pour tester l'existence de la totalité de la propriété $propriete. "partiel" pour s'avoir s'il existe au moins une propriété dont le nom commence par $propriete 
 	 * @return boolean : true si la propriété $propriete existe dans le tableau $donnees ou s'il existe au moins une propriété dans le tableau $donnees dont le nom commence par $propriete. false sinon
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 * @exemple existe("encarts", "partiel") -> return true si "encartsGauche" ou "encartsDroite" existe dans $donnees
 	 */
 	private function existe($propriete, $type = "total") {
@@ -147,9 +145,9 @@ abstract class controleur {
 	 * Exécute la méthode du contrôleur en fonction de l'action à réaliser. Déclenche une exception en cas de problème.
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public function executerAction() {
 		if (method_exists($this, $this->action)) {
@@ -163,9 +161,9 @@ abstract class controleur {
 	 * La méthode abstraite defaut correspond à l'action par défaut. Les classes dérivées sont obligées d'implémenter cette methode.
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public abstract function defaut();
 
@@ -173,9 +171,9 @@ abstract class controleur {
 	 * Génère la vue associée au contrôleur courant
 	 * @param null
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	protected function genererVue() {
 		$vue = new vue($this->module, $this->page);
@@ -188,9 +186,9 @@ abstract class controleur {
 	 * Le tableau est passé en paramètre par référence et la fonction est récursive
 	 * @param array $tab : Les données à nettoyer fournies sous forme d'un tableau passé par référence
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private function nettoyer(&$tab) {	// passage de paramètre PAR REFERENCE
 		foreach ($tab as $cle => $valeur) {
@@ -208,9 +206,9 @@ abstract class controleur {
 	 * Méthode permettant de retourner le fil d'Ariane
 	 * @param null
 	 * @return string : Le fil d'Ariane
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private function getFilAriane() {
 		if ($this->module == "home") {
@@ -224,9 +222,9 @@ abstract class controleur {
 	 * Renvoie le bloc relatif à l'authentification des visiteurs
 	 * @param null
 	 * @return string : les informations relatives au visiteur authentifié ou le formulaire d'authentification (le cas échéant)
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private function getAuthentification() {
 		return "Authentification";
@@ -236,9 +234,9 @@ abstract class controleur {
 	 * Lit le contenu d'un fichier texte relatif au texte défilant et le renvoie sous forme d'un tableau associatif 
 	 * @param string $fichier : le nom du fichier texte à analyser
 	 * @return array : un tableau composé du titre et du contenu (un tableau de second niveau)
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.2
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	protected function getTexteDefilant($fichier) {
 		$fichier = configuration::get("adrTexteDefilant") . $fichier;
@@ -271,9 +269,9 @@ abstract class controleur {
 	 * Renvoie les lignes du fichier texte passé en paramètre sous forme d'un tableau (utilisé notamment pour les textes de la galerie slidesjs de la page d'accueil du site)
 	 * @param string $fichier : l'adresse relative du fichier texte à lire
 	 * @return array : un tableau contenant les lignes du fichier texte $fichier
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	protected function getContentFile($fichier) {
 		if (($refFichier = fopen($fichier, "r")) !== False) {
@@ -292,9 +290,9 @@ abstract class controleur {
 	 * Méthode MAGIQUE permettant de retourner la valeur de l'élément correspondant à la clé $cle dans le tableau $donnees. Cette méthode se déclenche AUTOMATIQUEMENT lorsqu'on essaie de récupérer la valeur d'un attribut INEXISTANT
 	 * @param string $cle : La cle de l'élément
 	 * @return string : La valeur de l'élément correspondant à la clé $cle dans le tableau $donnees. Déclenche une exception si non trouvé
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.1
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	public function __get($cle) {
 		if (array_key_exists($cle, $this->donnees)) {
@@ -309,9 +307,9 @@ abstract class controleur {
 	 * @param string $cle : la clé de l'élément à ajouter au tableau
 	 * @param string $valeur : la valeur de l'élément à ajouter au tableau
 	 * @return null
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.2
-	 * @copyright Christophe Goidin - mai 2013
+	 * @copyright Christophe Goidin - decembre 2019
 	 */
 	// VERSION A FAIRE EVOLUER car il y a une erreur s'il n'y a qu'un seul encart (à gauche ou à droite)
 	public function __set($cle, $valeur) {

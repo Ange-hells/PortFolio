@@ -1,17 +1,17 @@
 <?php
 /*================================================================================================================
 	fichier				: class.configuration.inc.php
-	auteur				: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
-	date de création	: juin 2017
+	auteur				: Sio-Slam (contact.dev.Genesys@sio-slam.com)
+	date de création	: decembre 2019
 	date de modification:  
 	rôle				: la classe configuration gère la configuration du site web.
   ================================================================================================================*/
 
 /**
  * La classe configuration gère la configuration du site web
- * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+ * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
  * @version 1.0
- * @copyright Christophe Goidin - juin 2017
+ * @copyright Sio-Slam - decembre 2019
  */
 
 class configuration {
@@ -23,9 +23,9 @@ class configuration {
 	 * @static
 	 * @param null
 	 * @return array : le tableau associatif contenant l'ensemble des paramètres
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	private static function getParametres() {
 		if (self::$parametres == null) {
@@ -48,9 +48,9 @@ class configuration {
 	 * @param string $nom : le nom du paramètre de configuration
 	 * @param string $valeurParDefaut : la valeur par défaut (null par défaut)
 	 * @return string : la valeur du paramètre de configuration
-	 * @author Christophe Goidin <christophe.goidin@ac-grenoble.fr>
+	 * @author Sio-Slam <contact.dev.Genesys@sio-slam.com>
 	 * @version 1.0
-	 * @copyright Christophe Goidin - juin 2017
+	 * @copyright Sio-Slam - decembre 2019
 	 */
 	public static function get($nom, $valeurParDefaut = null) {
 		if (isset(self::getParametres()[$nom])) {
