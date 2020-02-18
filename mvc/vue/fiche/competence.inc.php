@@ -1,9 +1,9 @@
 <!-- ========= V U E =============================================================================================
- fichier				: ./mvc/vue/projet/agenda.inc.php
- auteur				: Nathan Thomasset (nathan.thomasset2@gmail.com)
- date de création	: septembre 2019
- date de modification:
- rôle					: permet de générer le code xhtml de la partie centrale de la page d'accueil du module cinepassion38
+ fichier				: ./mvc/vue/fiche/competence.inc.php
+ auteur					: Nathan Thomasset (nathan.thomasset2@gmail.com)
+ date de création		: fevrier 2020
+ date de modification	:
+ rôle					: permet de générer le code html de la partie centrale de la page competence du module fiche
 <================================================================================================================== -->
 <div id='content2'>
     <div id='flex'>

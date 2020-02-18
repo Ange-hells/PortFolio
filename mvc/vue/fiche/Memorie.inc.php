@@ -1,9 +1,9 @@
 <!-- ========= V U E =============================================================================================
- fichier				: ./mvc/vue/projet/agenda.inc.php
- auteur				: Nathan Thomasset (nathan.thomasset2@gmail.com)
- date de création	: septembre 2019
- date de modification:
- rôle					: permet de générer le code xhtml de la partie centrale de la page d'accueil du module cinepassion38
+ fichier				: ./mvc/vue/fiche/memorie.inc.php
+ auteur					: Nathan Thomasset (nathan.thomasset2@gmail.com)
+ date de création		: fevrier 2020
+ date de modification	:
+ rôle					: permet de générer le code html de la partie centrale de la page memorie du module fiche
 <================================================================================================================== -->
 <div id='content2'>
     <div id='flex'>
@@ -63,11 +63,17 @@
                             cartes du tapis afin de la retourner. Si la carte retournée et la carte de la pioche sont identiques, les deux cartes sont retirées du jeu, 
                             sinon la carte du tapis se retourne de nouveau.
                         </p>
+                        <div class="annexes">
+                            <h2>Titre</h2>
+                            <img />
+                            
+                        </div>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_Palindrome">
                         <h1>&nbsp;Palindrome&nbsp;</h1>
                         <p>
                             Enfin, Le palindrome est un mot qui se lit dans les deux sens, par exemple « Kayak ». L’application intègre une fenêtre où l’on peut tester si un mot est un palindrome.
+                            <img />
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_A-propos">
@@ -84,7 +90,6 @@
                     change_onglet(anc_onglet);
                 //-->
             </script>
-
         </div>
         <div id='right-block'>
             

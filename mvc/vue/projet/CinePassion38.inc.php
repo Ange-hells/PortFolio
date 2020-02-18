@@ -1,9 +1,9 @@
 <!-- ========= V U E =============================================================================================
  fichier				: ./mvc/vue/projet/cinepassion38.inc.php
- auteur				: Nathan Thomasset (nathan.thomasset2@gmail.com)
- date de création	: septembre 2019
- date de modification:
- rôle					: permet de générer le code xhtml de la partie centrale de la page d'accueil du module cinepassion38
+ auteur					: Nathan Thomasset (nathan.thomasset2@gmail.com)
+ date de création		: fevrier 2020
+ date de modification	:
+ rôle					: permet de générer le code html de la partie centrale de la page cinepassion38 du module projet
 <================================================================================================================== -->
 <div id='content2'>
     <div id='flex'>

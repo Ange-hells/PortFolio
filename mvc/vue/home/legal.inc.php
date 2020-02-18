@@ -1,9 +1,9 @@
 <!-- ========= V U E =============================================================================================
  fichier				: ./mvc/vue/projet/agenda.inc.php
- auteur				: Nathan Thomasset (nathan.thomasset2@gmail.com)
- date de création	: septembre 2019
- date de modification:
- rôle					: permet de générer le code xhtml de la partie centrale de la page d'accueil du module cinepassion38
+ auteur					: Nathan Thomasset (nathan.thomasset2@gmail.com)
+ date de création		: fevrier 2020
+ date de modification	:
+ rôle					: permet de générer le code html de la partie centrale de la page des mention legals
 <================================================================================================================== -->
 <div id='content2'>
     <div id='flex'>
@@ -20,7 +20,7 @@
                 <strong>Responsable publication</strong> : nathan thomasset – nathan.thomasset2@gmail.com<br />
                 <strong>Webmaster</strong> : nathan thomasset – nathan.thomasset2@gmail.com<br />
                 <strong>Hébergeur</strong> : fr.000webhost.com – 61 Lordou Vironos str., 6023 Larnaca, Cyprus<br />
-                Crédits : nathan thomasset<br />
+                <strong>Crédits</strong> : nathan thomasset<br />
                 Le modèle de mentions légales est offert par Subdelirium.com <a target="_blank" href="https://www.subdelirium.com/generateur-de-mentions-legales/" alt="generateur de mentions légales">Générateur de mentions légales</a>
             </p>
 

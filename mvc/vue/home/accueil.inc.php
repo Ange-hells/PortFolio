@@ -1,9 +1,9 @@
 <!-- ========= V U E =============================================================================================
  fichier				: ./mvc/vue/home/accueil.inc.php
- auteur					: Christophe Goidin (christophe.goidin@ac-grenoble.fr)
- date de création		: juin 2017
- date de modification	:
- rôle					: permet de générer le code xhtml de la partie centrale de la page d'accueil du site
+ auteur					: Nathan Thomasset (nathan.thomasset2@gmail.com)
+ date de création		: janvier 2020
+ date de modification	: fevrier 2020
+ rôle					: permet de générer le code html de la partie centrale de la page d'accueil du site
  ================================================================================================================= -->
 
 <div id='content1'>
