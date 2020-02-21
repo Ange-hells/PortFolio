@@ -38,6 +38,7 @@
                     <span class="onglet_0 onglet" id="onglet_Contexte" onclick="javascript:change_onglet('Contexte');">&nbsp;Context&nbsp;</span>
                     <span class="onglet_0 onglet" id="onglet_Outil" onclick="javascript:change_onglet('Outil');">&nbsp;Réalisation&nbsp;</span>
                     <span class="onglet_0 onglet" id="onglet_Explication" onclick="javascript:change_onglet('Explication');">Projet</span>
+                    <span class="onglet_0 onglet" id="onglet_Annexe" onclick="javascript:change_onglet('Annexe');">Annexe</span>
                 </div>
                 <div class="contenu_onglets">
                     <div class="contenu_onglet" id="contenu_onglet_Contexte">
@@ -95,10 +96,19 @@
                                 <li>La notation,</li>
                                 <li>Les commentaires.</li>
                             </ul>
+                            Dans les onglets, toutes les informations proviennent de la base de données.
                         </p>
-
-Dans les onglets, toutes les informations proviennent de la base de données.
-
+                    </div>
+                    <div class="contenu_onglet" id="contenu_onglet_Annexe">
+                        <h1>&nbsp;Annexe</h1>
+                        <p>
+                            <h2>Annexe 1 : Première Page « Présentation du module Film »</h2>
+                            <img src="./image/fiche/cp38/ALot1-1.png" />
+                            <h2>Annexe 2 : Seconde Page « Liste des Films »</h2>
+                            <img src="./image/fiche/cp38/ALot1-2.png" />
+                            <h2>Annexe 3 : Troisième Page Exemple</h2>
+                            <img src="./image/fiche/cp38/ALot1-3.png" />
+                        </p>
                     </div>
                 </div>
             </div>
