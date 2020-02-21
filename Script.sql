@@ -110,10 +110,11 @@ VALUES  ('Exel - Cas STEMA',2,1,1,'ExelStema'),
         ('RAID',2,1,5,'RAID'),
         ('Sauvegarde',2,1,5,'Sauvegarde'),
         ('Docker',2,0,5,'Docker'),
-        ('Gestion Contact',2,0,5,'GestionContact'),
+        ('Gestion Contact',2,0,1,'GestionContact'),
         ('Genesys',1,1,5,'Genesys'),
         ('Evsion',1,1,5,'Evsion'),
-        ('Wi-Fi_Password',2,0,5,'wifiPassword')
+        ('Wi-Fi_Password',2,0,5,'wifiPassword'),
+        ('markdown',3,0,4,'markdown')
 ;
 
 INSERT Into typefiche 
