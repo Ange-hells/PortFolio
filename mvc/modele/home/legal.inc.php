@@ -14,8 +14,8 @@ class modeleHomeLegal extends modele{
     }
         
     public function getListFiche($i){
-        $collection = new collection()
-        $sql = "";
+        // $collection = new collection()
+        // $sql = "";
 
         $pdoStat = $this->executerRequete($sql);
         while(($uneFiche = $pdoStat->fetchObject()) !== false){
