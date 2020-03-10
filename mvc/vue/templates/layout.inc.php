@@ -15,6 +15,7 @@
 	</title>
 	<link rel="icon" type="image/png" href="./image/divers/favicon.png">
 
+	<link rel='stylesheet' media='handheld' type='text/css' href='./css/mobile.css' />
 	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
 	<link rel='stylesheet' type='text/css' href='./css/tab.css' />
@@ -74,7 +75,7 @@
 		<a>
 			<img alt='Nathan.THOMASSET' src='./image/partenaire/Sio-slam.ico' /> &nbsp; Nathan.THOMASSET
 		</a>&nbsp;&nbsp;
-		<a onclick='window.open(this.href); return false;' href='https://sio-slam.000webhostapp.com'>
+		<a href='https://sio-slam.com'> <!--onclick='window.open(this.href); return false;'-->
 			<img alt='SIO-SLAM' src='./image/partenaire/logoSioSlam.png' />
 		</a>&nbsp;&nbsp;
 	</div>
