@@ -9,10 +9,22 @@
 <div id='content1'>
 	<div id='blocDroite'>
 		<span class='titre'>
-			présentation du Port Folio
+			Présentation
 		</span>
 		Ce port folio (porte-documents en francais) a ete tous specialement concus pour les besoin du BTS.
 		Il contient toutes les fiche de competence detailler realiser 
+	</div>
+	<div id='changeLog'>
+		<span class='titre'>
+			Change Log
+		</span>
+		V2.6 : Mise a jour des mention legal,</br>
+		&emsp;&emsp;&ensp;&nbsp;Ajout de Contact,</br>
+		&emsp;&emsp;&ensp;&nbsp;Ajout du tableau competence,</br>
+		&emsp;&emsp;&ensp;&nbsp;Construction et ajout des image "en coure" pour veilles.</br>
+		V2.5 : Mise a jour du tableau fiche,</br>
+		&emsp;&emsp;&ensp;&nbsp;Mise a jour des lien interne,</br>
+		&emsp;&emsp;&ensp;&nbsp;Mise a jour des lien externe.</br>
 	</div>
 
 	<script type='text/javascript'>

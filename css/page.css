@@ -97,3 +97,28 @@ h1
     margin: 0px;
     padding: 0px;
 }
+
+/* autre */
+#changeLog
+{
+    position: absolute;		/* positionné par rapport à son conteneur : content1 */
+	width: 518px;
+	top: 80px;
+	left: 612px;
+	padding: 5px 10px 10px 10px;
+	/*border-radius: 10px;*/
+	border: 1px solid var(--couleurBordure);
+	background-color: var(--couleurNiveau1);
+	margin: 0px 0px 0px 0px;
+
+}
+
+#changeLog span.titre
+{
+    display: block;
+	margin-bottom: 5px;
+	font-weight: bolder;
+	text-align: center;
+	color: inherit;
+	background-color: inherit;
+}
