@@ -21,7 +21,7 @@
 		V2.6 : Mise a jour des mention legal,</br>
 		&emsp;&emsp;&ensp;&nbsp;Ajout de Contact,</br>
 		&emsp;&emsp;&ensp;&nbsp;Ajout du tableau competence,</br>
-		&emsp;&emsp;&ensp;&nbsp;Construction et ajout des image "en coure" pour veilles.</br>
+		&emsp;&emsp;&ensp;&nbsp;Construction et ajout des image "en cour" pour veilles.</br>
 		V2.5 : Mise a jour du tableau fiche,</br>
 		&emsp;&emsp;&ensp;&nbsp;Mise a jour des lien interne,</br>
 		&emsp;&emsp;&ensp;&nbsp;Mise a jour des lien externe.</br>
