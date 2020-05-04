@@ -144,6 +144,11 @@
 					<li><a href='./index.php?module=contact&amp;page=Contact'><img src="./image/logo/contact-16.png"> Contact <img src="./image/logo/contact-16.png"></a></li>
 				</ul>
 			</li>
+			<li class='plus'>Confinement
+				<ul class='nv2'>
+					<li><a href='./index.php?module=Confinement&amp;page=Confinement'><img src="./image/logo/covid-16.png"> Confinement <img src="./image/logo/covid-16.png"></a></li>
+				</ul>
+			</li>
 		</ul>
 	</div><!-- menu -->
 	

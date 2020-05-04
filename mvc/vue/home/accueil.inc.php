@@ -16,8 +16,11 @@
 	</div>
 	<div id='changeLog'>
 		<span class='titre'>
-			Change Log
+			<a href='index.php?module=home&amp;page=changelog'>Change Log</a>
 		</span>
+		V2.7 : Ajout de la section Confinement,</br>
+		&emsp;&emsp;&ensp;&nbsp;Remplisage de la section Confinement,</br>
+		&emsp;&emsp;&ensp;&nbsp;Ajout du lien clicable "Changelog".</br>
 		V2.6 : Mise a jour des mention legal,</br>
 		&emsp;&emsp;&ensp;&nbsp;Ajout de Contact,</br>
 		&emsp;&emsp;&ensp;&nbsp;Ajout du tableau competence,</br>

@@ -44,6 +44,15 @@ CREATE TABLE `situationobligatoire` (
     PRIMARY KEY (`IdSituation`)
 );
 
+CREATE TABLE `reaConfinement`(
+  `idRea` TINYINT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  `libelleRea` VARCHAR(50) NOT NULL,
+  `lienGitRea` VARCHAR(100),
+  `lienPageRea` VARCHAR(100),
+  `descriRea` TEXT,
+  
+  );
+
 INSERT INTO competence 
 VALUES  ('A1.1.1', `Analyse du cahier des charges d'un service à produire`),
         ('A1.1.2', `Étude de l'impact de l'intégration d'un service sur le système informatique`),
@@ -242,4 +251,11 @@ VALUES  ('A1.1.1',1),
         -- (``,),
         -- (``,),
 ;
+
+INSERT INTO reaconfinement (libelleRea, lienGitRea, lienPageRea, descriRea)
+VALUE ("Dungeon Arena", "", "DungeonArena", "Plonger dans le monde de Prelia decouvrez les secrets des neuf royaumes '???' ! "),
+      ("Olympiae Proelium", "", "OlympiaeProelium", "Pokemon fais s'affronter des pokemon, Magig et Yu-Gi-Oh font s'affronter de monstre, BattleTube des youtubeur et Instable Unicorne des Licornes. Allors Olympiae Proelium ce sera des DIEUX ! "),
+      ("RPG Battle Chest", "", "RPGBattleChess", "Parmi les plus vieux jeux de plateau au monde et surment parmi ceux qui compte le plus d'adepte au travere du globe. Les echecs n'ons pas vue leur régles millenaire évoluer depuis plus ou moin leur création, ni patch, ni DLC, ni extention. Il est temp que cella change ! "),
+      ("Ðragone Game Studio", "", "DragoneGameStudio", ""),
+
 

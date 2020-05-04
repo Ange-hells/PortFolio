@@ -1,0 +1,3 @@
+("Dungeon Arena", "", "", "Pres-Production du jeux Dungeon Arena jeux concus en Ruby avec le moteur RPG Maker VXace"),
+      ("Olympiae Proelium", "", "", "Phase de conception du jeux de carte a jouer et a collectioner Olympiae Proelium"),
+      ("RPG Battle Chest", "", "", "Phase de conception du jeux de plateau RPG Battle Chest")
