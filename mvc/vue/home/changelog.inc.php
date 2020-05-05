@@ -33,14 +33,10 @@
                 V2.0 : Creation de la section Fiche de competence</br>
                 &emsp;&emsp;&ensp;&nbsp;Creation du tableau Liste des fiches</br>
                 &emsp;&emsp;&ensp;&nbsp;Ajout des section CinePassion38, Keller2020, Agenda, MDI</br></br>
-                V1.8 : </br>
-                &emsp;&emsp;&ensp;&nbsp;</br></br>
-                V1.7 : </br>
-                &emsp;&emsp;&ensp;&nbsp;</br></br>
-                V1.6 : </br>
-                &emsp;&emsp;&ensp;&nbsp;</br></br>
-                V1.5 : </br>
-                &emsp;&emsp;&ensp;&nbsp;</br></br>
+                V1.6 : Fixation des bugs de case PHP WAMP to 1&1</br>
+                &emsp;&emsp;&ensp;&nbsp;Fixation des bugs de case mySql WAMP to 1&1</br></br>
+                V1.5 : Inclustion de PortFolio a Sio-Slam.com</br>
+                &emsp;&emsp;&ensp;&nbsp;Ebergement</br></br>
                 V1.4 : Creation de la base de donnee mySQL</br>
                 &emsp;&emsp;&ensp;&nbsp;</br></br>
                 V1.3 : Creation du text de presentation</br>
