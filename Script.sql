@@ -255,7 +255,7 @@ VALUES  ('A1.1.1',1),
 INSERT INTO reaconfinement (libelleRea, lienGitRea, lienPageRea, descriRea)
 VALUE ("Dungeon Arena", "", "DungeonArena", "Plonger dans le monde de Prelia decouvrez les secrets des neuf royaumes '???' ! "),
       ("Olympiae Proelium", "", "OlympiaeProelium", "Pokemon fais s'affronter des pokemon, Magig et Yu-Gi-Oh font s'affronter de monstre, BattleTube des youtubeur et Instable Unicorne des Licornes. Allors Olympiae Proelium ce sera des DIEUX ! "),
-      ("RPG Battle Chest", "", "RPGBattleChess", "Parmi les plus vieux jeux de plateau au monde et surment parmi ceux qui compte le plus d'adepte au travere du globe. Les echecs n'ons pas vue leur régles millenaire évoluer depuis plus ou moin leur création, ni patch, ni DLC, ni extention. Il est temp que cella change ! "),
-      ("Ðragone Game Studio", "", "DragoneGameStudio", ""),
+      ("RPG Battle Chess", "", "RPGBattleChess", "Parmi les plus vieux jeux de plateau au monde et surment parmi ceux qui compte le plus d'adepte au travere du globe. Les echecs n'ons pas vue leur régles millenaire évoluer depuis plus ou moin leur création, ni patch, ni DLC, ni extention. Il est temp que cella change ! "),
+      ("Ðragon Game Studio", "", "DragonGameStudio", "Studio de developemnt de jeux video intependent francais"),
 
 
