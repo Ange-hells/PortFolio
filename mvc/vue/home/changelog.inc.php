@@ -38,7 +38,7 @@
                 V1.5 : Inclustion de PortFolio a Sio-Slam.com</br>
                 &emsp;&emsp;&ensp;&nbsp;Ebergement</br></br>
                 V1.4 : Creation de la base de donnee mySQL</br>
-                &emsp;&emsp;&ensp;&nbsp;</br></br>
+                &emsp;&emsp;&ensp;&nbsp;</br>
                 V1.3 : Creation du text de presentation</br>
                 &emsp;&emsp;&ensp;&nbsp;Creation et ajout des images de la galerie d'accueil</br></br>
                 V1.2 : Remplisage du plans de site</br>
