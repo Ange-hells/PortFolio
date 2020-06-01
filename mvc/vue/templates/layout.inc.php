@@ -15,12 +15,11 @@
 	</title>
 	<link rel="icon" type="image/png" href="./image/divers/favicon.png">
 
-	<link rel='stylesheet' media='handheld' type='text/css' href='./css/mobile.css' />
-	<link rel='stylesheet' type='text/css' href='./css/structure.css' />
+	<link rel='stylesheet' type='text/css' href='./css/mobile.css' />
+	<!-- <link rel='stylesheet' type='text/css' href='./css/structure.css' /> -->
 	<link rel='stylesheet' type='text/css' href='./css/menu.css' />
 	<link rel='stylesheet' type='text/css' href='./css/tab.css' />
 	<link rel='stylesheet' type='text/css' href='./css/page.css' />
-	<!-- 	<link rel='stylesheet' href='./css/onglet.css' /> -->	
 	<!-- <link rel='stylesheet' type='text/css' href='./css/onglet.css' /> -->
 
 	<script type='text/javascript' src='./librairie/jquery/js/jquery1.7.2.js'></script>
@@ -183,6 +182,7 @@
 			Fiche de competence
 			<ul>
 				<li><a href='./index.php?module=fiche&amp;page=accueil'>Liste des fiches</a></li>
+				<li><a href='./index.php?module=fiche&amp;page=competence'>Competences</a></li>
 			</ul>
 		</div>
 		<div class='blocGauche'>
@@ -198,12 +198,15 @@
 			</ul>	
 		</div>
 		<div class='blocDroite'>
-			<span class='centrer'>...</span>
+			Confinement
+			<ul>
+				<li><a href='./index.php?module=confinement&amp;page=confinement'>Contact</a></li>
+			</ul>
 		</div>
 		<div class='blocDroite'>
 			Contact
 			<ul>
-				<li><a href='./index.php?module=contact&amp;page=accueil'>Contact</a></li>
+				<li><a href='./index.php?module=contact&amp;page=contact'>Contact</a></li>
 			</ul>
 		</div>
 		<div class='blocCentre'>			
