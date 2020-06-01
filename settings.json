@@ -3,7 +3,7 @@
 
 
 {
-    "background.customImages": ["D:/Users/perso/Pictures/Font d'écrant/Oceane2.5.png"],
+    "backgroundCover.imagePath": "D:\\Users\\perso\\Pictures\\Font d'écrant\\",
     "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php7.4.0\\php.exe",
     "editor.renderControlCharacters": true,
     
@@ -48,8 +48,27 @@
     "sql-formatter.uppercase": true,
     "sqltools.completionLanguages": [
         "sql"
-    ]
+    ],
 
-    
+    // Datebase {
+        // Sio_Slam
+        "sqltools.askForPassword": false,
+        "sqltools.database": "sio_slam",
+        "sqltools.dialect": "MySQL",
+        "sqltools.name": "Sio-Slam",
+        "sqltools.port": 3306,
+        "sqltools.server": "localhost",
+        "sqltools.username": "root",
+
+        // PortFolio
+        "askForPassword": false,
+        "database": "PortFolio",
+        "dialect": "MySQL",
+        "name": "portfolio",
+        "port": 3306,
+        "server": "localhost",
+        "username": "root"
+
+    // }
     
 }
