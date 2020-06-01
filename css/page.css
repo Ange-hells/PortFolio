@@ -160,7 +160,6 @@ h1
     margin-left: 10px;
 }
 
-
 .uneRea
 {
     flex-wrap: wrap;
@@ -172,4 +171,11 @@ h1
 {
     margin-left: 10px;
     font-size: x-large;
+}
+
+/*Fiche*/
+.capture
+{
+    width: 512px;
+
 }
