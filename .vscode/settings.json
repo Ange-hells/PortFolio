@@ -8,6 +8,24 @@
             "port": 3306,
             "server": "localhost",
             "username": "root"
+        },
+        {
+            "askForPassword": false,
+            "database": "sio_slam",
+            "dialect": "MySQL",
+            "name": "Sio-Slam",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "askForPassword": false,
+            "database": "portfolio",
+            "dialect": "MySQL",
+            "name": "PortFolio",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
         }
     ]
 }
