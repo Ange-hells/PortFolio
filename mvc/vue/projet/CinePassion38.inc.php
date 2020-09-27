@@ -24,7 +24,8 @@
         </div>
         <div id='center-block'>
             <h1>CinePassion38</h1>
-
+            <a href="index.php?module=fiche&page=cp38Lot1"><img src="./image/fiche/cp38/cp38_1.bmp" alt=""/></a>
+            <a href="index.php?module=fiche&page=cp38Lot2"><img src="./image/fiche/cp38/cp38_2.bmp" alt=""/></a>
            
         </div>
     </div><!--flex-->

@@ -179,3 +179,12 @@ h1
     width: 512px;
 
 }
+
+.legende
+{
+    float: right;
+    position: absolute;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}

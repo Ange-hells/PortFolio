@@ -67,38 +67,44 @@
                     <div class="contenu_onglet" id="contenu_onglet_V1">
                         <p>
                             <a href='./image/fiche/Evasion/EvasionV1.png'> <img class='capture' alt='' src='./image/fiche/Evasion/EvasionV1.PNG'/> </a>
+                            <span class="legende" > Premiere version d'Evasion integrer directement a MDI il comporte seulement cinq bouton (Precedent, Suivant, Rafraichire, Stop et Recherche) et une bare de recherche ce qui en fait un navigateur web ultra leger </span>
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_V2">
                         <p>
                             <a href='./image/fiche/Evasion/EvasionV2.png'> <img class='capture' alt='' src='./image/fiche/Evasion/EvasionV2.PNG'/> </a>
+                            <span class="legende" > Pour sa deuxieme version Evasion s'offre un system d'onglet ainsi que des icones (par Icons8) sur ces boutons de plus il voie l'arriver du menu Evasion et d'une bare d'etat. </span>
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_V3/V3se">
                         <p>
                             <a href='./image/fiche/Evasion/EvasionV3.png'> <img class='capture' alt='' src='./image/fiche/Evasion/EvasionV3.PNG'/> </a>
+                             <span class="legende" > Un changement de construction acompagne EvasionV3 et V3Se passent de windows form a Windows Presentation Fondation au dela de cela les amelioration apporter reste minim et cantoner au ceul code source</span>
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_V4/V4#">
                         <p>
                             <a href='./image/fiche/Evasion/EvasionV4.png'> <img class='capture' alt='' src='./image/fiche/Evasion/EvasionV4.PNG'/> </a>
+                             <span class="legende" > Evasion V4 ne voie pas de grosse amelioration si ce n'est la nouvelle implementation C# d'EvasionV4# </span>
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_V5">
                         <p>
                             <a href='./image/fiche/Evasion/EvasionV5.png'> <img class='capture' alt='' src='./image/fiche/Evasion/EvasionV5.PNG'/> </a>
+                             <span class="legende" > Actuellement en developement Evasion V5 es la version qui voie le plus de changement tous nouveaux design nouvelle technology et gestion de javascript le navigateur ultra leger ce concretise vraiment. </span>
                         </p>
                     </div>
                     <div class="contenu_onglet" id="contenu_onglet_V6">
                         <p>
                             <img class='capture' alt='' src='./image/divers/construction.png'/>
+                            <span class="legende"> Evasion V6 n'est actuelement qu'au stade de speculation, Il est envisager mais es encore trop flou pour ce concretiser toutefois les deverse fonctionaliter qu'il embarquera sont dor et deja etablie et ne cesse de sameliorer et d'augmenter. </span>
                         </p>
                     </div>
                 </div>
             </div>
             <script type="text/javascript">
                 //<!--
-                var anc_onglet = 'Projet';
+                var anc_onglet = 'Projet';   
                     change_onglet(anc_onglet);
                 //-->
             </script>
